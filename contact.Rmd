@@ -1,0 +1,10 @@
+---
+
+---
+
+<br>
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+Email: kylebarrett334@gmail.com
+
+You can also connect with me on GitHub, ResearchGate, or Linkedin (links in top right).

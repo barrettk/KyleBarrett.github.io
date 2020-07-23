@@ -4,32 +4,41 @@
 
 <br>
 <link rel="stylesheet" href="styles.css" type="text/css">
+
 ```{r setup, include=FALSE, echo=FALSE}
 library(htmltools)
 library(vembedr)
+library(shiny)
 AD_Link <- "https://www.youtube.com/watch?v=Z9XZ7gUKEIQ"
-```
-## Github Repositories
-
-- I modeled the <a href="https://kylebarrett.github.io/AnaerobicDigestion/" target="_blank">anaerobic digestion of hydraulic fracking contaminants</a> using the R package, [mrgsolve](https://github.com/metrumresearchgroup/mrgsolve). I developed an R shiny dashboard app to adjust model parameters and reactor settings. The deployed version currently does not run, though it should function properly if you run the files locally.
- 
-```{r echo=FALSE}
-embed_url(AD_Link)
+EducatR_Link <- "https://youtu.be/DUwFSHFnWp8"
 ```
 
-- Other repositories on my GitHub illustrate some of my early R shiny experience, but are not relevant to other skills/interests i'm attempting to showcase.
+# Professional Work
 
-## Professional Work
-
-### Certara
+## Certara
+ - <a href="https://pharmacometrics.shinyapps.io/COVID-19-CompoundScreening_TestNewUI/" target="_blank">Compound Screening Dashboard</a>, which links to other apps I worked on.
+   -  Note that this link may soon be changed. Will publish the offical Certara link when this happens.
  - <a href="https://pharmacometrics.shinyapps.io/COVID-19-VK-MODEL/" target="_blank">Viral Kinetics Model</a>
- - <a href="https://pharmacometrics.shinyapps.io/COVID-19-CompoundScreening_TestNewUI/" target="_blank">Compound Screening Dashboard</a>
-  - Note that this link may soon be changed. Will publish the offical Certara link when this happens.
- - I helped develop other apps on <a href="https://www.covidpharmacology.com/in-silico-workbench/" class="uri">Certara's website</a> using the flexdashboard R package, though I wouldnt count this as R shiny experience given the R package's simplicity
- 
+ - I helped develop other apps on <a href="https://www.covidpharmacology.com/in-silico-workbench/"  target="_blank">Certara's website</a> using the flexdashboard R package, though I wouldnt count this as R shiny experience given the R package's simplicity
 
+<hr>
 
-<video width="320" height="240" controls><source src="EducatR.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+# Github Repositories
 
+- I modeled the anaerobic digestion of hydraulic fracking contaminants for my senior design project (<a href="https://kylebarrett.github.io/AnaerobicDigestion/" target="_blank">see GitHub</a>). I used the R package, [mrgsolve](https://github.com/metrumresearchgroup/mrgsolve) to handle the + 40 PDE's describing the advanced biological process and reactor properties. An R shiny dashboard app was constructed to facilitate the adjustment model parameters and reactor settings. The deployed version currently does not run, though it should function properly if you run the files locally. I recorded a video of me using it to illustrate some of the features.
+
+ - **Anaerobic Digestion Preview:**
+```{r echo=FALSE}
+fluidRow(column(12,align="center",embed_url(AD_Link)))
+```
+
+- Other [repositories](https://github.com/KyleBarrett?tab=repositories) on my GitHub illustrate some of my early R shiny experience, but are not relevant to other skills/interests i'm attempting to showcase.
+<hr>
+- I have made R shiny apps that with more advanced UIs involving HTML and CSS style sheets. You'd never know you were looking at an R shiny app.
+
+ - **EducatR R shiny app:**
+```{r echo=FALSE}
+fluidRow(column(12,align="center",embed_url(EducatR_Link)))
+```
+
+<hr>
