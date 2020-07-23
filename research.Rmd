@@ -3,7 +3,7 @@
 ---
 
 <br>
-<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="www/css/styles.css" type="text/css">
 
 More information can be found on [Research Gate](https://www.researchgate.net/profile/Kyle_Barrett6).
 
