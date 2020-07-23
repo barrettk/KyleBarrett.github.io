@@ -1,3 +1,266 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>research.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
@@ -11,7 +274,7 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active">
+        <li>
   <a href="research.html">Research</a>
 </li>
 <li>
@@ -19,7 +282,12 @@
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-
+        <li>
+  <a href="contact.html">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
 <li>
   <a href="https://github.com/KyleBarrett">
     <span class="fa fa-github fa-lg"></span>
@@ -41,17 +309,76 @@
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
 </div>
 
-<h3>Selected Publications</h3>
-<ul>
-  <li>Huang Z, Barrett JS, Barrett K, Barrett R, Ng, CM. Novel method to predict body weight in children based on age and morphological facial features. The Journal of Clinical Pharmacology, 2015; 55: 447–451.</li>
-  <li>Huang Z, Barrett JS, Barrett K, Barrett R, Ng, CM. Estimation of Body Weight in Children Based on Age and Morphological Facial Features. AAPS Annual Meeting and Exposition, At San Diego, CA 2014</li>
-  <li>Cimorelli M, Angel B, Fafarman A, Kohut A, Andrien B, Barrett K, Wrenn SP. Introducing a nested phase change agent with an acoustic response that depends on electric field: A candidate for myocardial perfusion imaging and drug delivery. Applied Acoustics, 2018: 138: 9-17.</li>
-  <li>Barrett JS, Spitsin S, Moorthy G, Barrett K, Baker K, Lackner A, Tulic F, Winters A, Evans DL, Douglas SD. Pharmacologic rationale for the NK1R antagonist, Aprepitant as adjunctive therapy in HIV. J Transl Med. 2016;14:148.</li>
-  <li>Barrett JS, Moorthy WD, Srivastata G, Barrett K, Spitsin KJ, Tuluc S, et al. Preclinical activity predicts higher dosing requirements for the NK-1r antagonist Aprepitant in HIV-associated neurocognitive disorders (HAND): Dispositional and pharmacologic rationale for multimodal therapeutic window. Clin Pharmacol Therapeut 2013; 93 Suppl 1:S17.PI-9.</li>
-  <li>Cimorelli M, Andrien B, Barrett K, Fafarman A, Kohut A, Wrenn S. Electric Field Activation of Nested Ultrasound Contrast Agents: In Vitro and In Vivo Investigations. ACS: Colloid & Surface Science Symposium, At City College of New York, 2017; 91</li>
-  <li>Elmokadem A, Gastonguay M, Baron K, Barrett K, Zane N, Yankee T, Riggs M. Application of an Open- source Physiologically-based Pharmacokinetic Model of Voriconazole to Explore Apparent Pharmacokinetic Differences between Adults and Children. CPT: Pharmacometrics and Systems Pharmacology, 2018 (Submitted)</li>
-</ul>
-<hr />
 
+<hr />
+<hr />
+<p><br> <link rel="stylesheet" href="styles.css" type="text/css"></p>
+<p>More information can be found on <a href="https://www.researchgate.net/profile/Kyle_Barrett6">Research Gate</a>.</p>
+<div id="selected-publications" class="section level3">
+<h3>Selected publications</h3>
+<p>The below publications represent my work to date on the topic of statistical methods for the study of etiologic heterogeneity:</p>
+<p>Huang Z, Barrett JS, <strong>Barrett K</strong>, Barrett R, Ng, CM. Novel method to predict body weight in children based on age and morphological facial features. <em>The Journal of Clinical Pharmacology</em>, 2015; 55: 447–451.</p>
+<p>Huang Z, Barrett JS, <strong>Barrett K</strong>, Barrett R, Ng, CM. Estimation of Body Weight in Children Based on Age and Morphological Facial Features. <em>AAPS Annual Meeting and Exposition</em>, At San Diego, CA 2014</p>
+<p>Cimorelli M, Angel B, Fafarman A, Kohut A, Andrien B, <strong>Barrett K</strong>, Wrenn SP. Introducing a nested phase change agent with an acoustic response that depends on electric field: A candidate for myocardial perfusion imaging and drug delivery. <em>Applied Acoustics</em>, 2018: 138: 9-17.</p>
+<p>Barrett JS, Spitsin S, Moorthy G, <strong>Barrett K</strong>, Baker K, Lackner A, Tulic F, Winters A, Evans DL, Douglas SD. Pharmacologic rationale for the NK1R antagonist, Aprepitant as adjunctive therapy in HIV. <em>J Transl Med</em>. 2016;14:148</p>
+<p>Barrett JS, Moorthy WD, Srivastata G, <strong>Barrett K</strong>, Spitsin KJ, Tuluc S, et al. Preclinical activity predicts higher dosing requirements for the NK-1r antagonist Aprepitant in HIV-associated neurocognitive disorders (HAND): Dispositional and pharmacologic rationale for multimodal therapeutic window. <em>Clin Pharmacol Therapeut</em> 2013; 93 Suppl 1:S17.PI-9.</p>
+<p>Cimorelli M, Andrien B, <strong>Barrett K</strong>, Fafarman A, Kohut A, Wrenn S. Electric Field Activation of Nested Ultrasound Contrast Agents: In Vitro and In Vivo Investigations. <em>ACS: Colloid &amp; Surface Science Symposium</em>, At City College of New York, 2017; 91</p>
+<p>Elmokadem A, Gastonguay M, Baron K, <strong>Barrett K</strong>, Zane N, Yankee T, Riggs M. Application of an Open- source Physiologically-based Pharmacokinetic Model of Voriconazole to Explore Apparent Pharmacokinetic Differences between Adults and Children. CPT: <em>Pharmacometrics and Systems Pharmacology</em>, 2018 (Submitted)</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
