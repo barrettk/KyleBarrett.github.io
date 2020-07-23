@@ -15,7 +15,7 @@ EducatR_Link <- "https://youtu.be/DUwFSHFnWp8"
 
 # Professional Work
 
-## Certara
+### Certara
  - <a href="https://pharmacometrics.shinyapps.io/COVID-19-CompoundScreening_TestNewUI/" target="_blank">Compound Screening Dashboard</a>, which links to other apps I worked on.
    -  Note that this link may soon be changed. Will publish the offical Certara link when this happens.
  - <a href="https://pharmacometrics.shinyapps.io/COVID-19-VK-MODEL/" target="_blank">Viral Kinetics Model</a>
