@@ -14,6 +14,6 @@ My full CV is available [here](files/Resume_new.pdf).
 <hr>
 
 #### Some Hobbies
- - I LOVE homebrewing. Beer, kombucha, wine/hooch, you name it.
+ - I LOVE homebrewing. Beer, kombucha, wine/hooch, you name it. So much so that I made an [app](https://kylebarrett.shinyapps.io/Kombucha/) to help me keep track of things:)
  - Squash/weight lifting
  - Community volunteering
