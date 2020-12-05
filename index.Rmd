@@ -6,7 +6,7 @@
 
 <img src="www/images/FB_profile.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-I graduated Drexel in 2019 with a BS in chemical engineering. I have research and lab experience in PKPD modeling, biological colloids, and polymer chemistry. I'm currently on publications related to computational biology, ultrasound contrast agents, and body weight prediction software using image analysis. I currently market myself as an R shiny development, though am also proficient in R (data analysis & post processing), C++, HTML/CSS, and Creo Parametrics (3D modeling/printing). Looking forward, I plan to become more involved with software development and data analysis.
+I graduated Drexel in 2019 with a BS in chemical engineering. I have research and lab experience in PKPD modeling, biological colloids, and image analysis. More recently I have focused on developing my proficiency in software development, with an emphasis on creating tools and automating certain processes using R/R Shiny, C++, and HTML/CSS. My programming experiences have often been related to pharmacokinetic modeling and simulation (PBPK and PKPD) and R shiny app development, though I have also modeled anaerobic digestion (See GitHub and ResearchGate portfolios) and created several other web apps. My intended focus is to continue expanding my knowledge base in software development, learn more innovative modeling techniques, and further develop my skills in data analysis and visualization. 
 
 My full CV is available [here](files/Resume_new.pdf).
 
@@ -15,5 +15,5 @@ My full CV is available [here](files/Resume_new.pdf).
 
 #### Some Hobbies
  - I LOVE homebrewing. Beer, kombucha, wine/hooch, you name it. So much so that I made an [app](https://kylebarrett.shinyapps.io/Kombucha/) to help me keep track of things:)
- - Squash/weight lifting
+ - Squash & weight lifting
  - Community volunteering
