@@ -19,4 +19,4 @@ navbar:
 output:
   html_document:
     theme: paper
-    css: 'www/styles.css'
+    css: 'www/css/styles.css'
