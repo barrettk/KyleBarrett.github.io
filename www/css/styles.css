@@ -1,31 +1,5 @@
 /*** OVERRIDE THEME STYLES ***/
 
-#home a:link { color: #2608e3; }
-#home a:visited { color: #2608e3; }
-#home a:hover { color: #2608e3; }
-#home a:active { color: #2608e3; }
-
-#infoBox a:link { color: #2608e3; text-decoration: none;}
-#infoBox a:visited { color: #2608e3; text-decoration: none;}
-#infoBox a:hover { color: #2608e3; text-decoration: none; background-color: #f2f2f2;}
-#infoBox a:active { color: #2608e3; text-decoration: none;}
-
-#infoBox .form-group, .selectize-control {margin-bottom: 0px;}
-#infoBox .box-body {padding: 0px;}
-.box-body infoBox_box .form-group, .selectize-control {margin-bottom: 0px; margin-top: 0px; margin-left: 0px; margin-right: 0px;}
-.box-body infoBox_box {padding: 0px;}
-
-#linkText a:link { color: #2608e3; text-decoration: none;}
-#linkText a:visited { color: #2608e3; text-decoration: none;}
-#linkText a:hover { color: #2608e3; text-decoration: none; }
-#linkText a:active { color: #2608e3; text-decoration: none;}
-
-a:link, a:visited, a:hover, a:active  {text-decoration: none;}
-
-.swal2-popup, .swal2-modal, .swal2-show{
-    width:675px !important;
-}
-
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 600;
 }
@@ -39,7 +13,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   background-color: #f2f2f2;
 }
 .content {padding-left: 0px;}
-body {padding-top:10px;}
+body {padding-top:10px;
+  text-align: justify;
+}
 
 .sidebar-collapse {
   padding-top: 55px;
