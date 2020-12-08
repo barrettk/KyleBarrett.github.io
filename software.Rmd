@@ -50,7 +50,7 @@ fluidRow(column(12,align="center",embed_url(EducatR_Link)))
 - https://kylebarrett.shinyapps.io/Kombucha/
 
 <iframe id="Kombucha App" src=" https://kylebarrett.shinyapps.io/Kombucha/"
-style="border: non; width: 100%; height: 500px"
+style="border: none; width: 100%; height: 500px"
 frameborder="0">
 </iframe>
 
