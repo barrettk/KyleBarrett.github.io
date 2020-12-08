@@ -48,8 +48,9 @@ fluidRow(column(12,align="center",embed_url(EducatR_Link)))
 
 **Homebrewing**
 
-- Here's an example of one of the apps I've made for personal use (Homebrewing!). I use it to help me keep track of all the ingredients I like, determine proper measurements, and estimate the pricing before I even start!
-- You can run the app [full screen](https://kylebarrett.shinyapps.io/Kombucha/) or check it out on [GitHub](https://kylebarrett.github.io/KombuchaBrewing/)
+* Here's an example of one of the apps I've made for personal use (Homebrewing!). I use it to help me keep track of all the ingredients I like, determine proper measurements, and estimate the pricing before I even start!
+* You can run the app full screen on [shinyapps.io](https://kylebarrett.shinyapps.io/Kombucha/) or check it out on [GitHub](https://kylebarrett.github.io/KombuchaBrewing/)
+  * <b>Note:</b> If it looks like some features arent working on shinyapps.io, that means I used the alotted 25 hours/month
 
 <iframe id="Kombucha App" src=" https://kylebarrett.shinyapps.io/Kombucha/"
 style="border: none; width: 1000px; height: 800px; display:inline-block; text-align:center;"
