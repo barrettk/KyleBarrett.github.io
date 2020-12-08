@@ -19,8 +19,7 @@ navbar:
 output:
   html_document:
     theme: paper
-    css: 'www/css/modest.css'
-    common-ext-css:
-      - "//use.fontawesome.com/releases/v5.0.6/css/all.css"
-    common-ext-js:
-      - "//use.fontawesome.com/releases/v5.0.6/js/all.js"
+    css: 
+      - ["www/css/modest.css","https://use.fontawesome.com/releases/v5.0.6/css/all.css"]
+    js:
+      - "https://use.fontawesome.com/releases/v5.0.6/js/all.js"
