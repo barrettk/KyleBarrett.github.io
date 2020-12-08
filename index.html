@@ -25,6 +25,15 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
   pre:not([class]) {
@@ -69,6 +78,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="www/css/modest.css" type="text/css" />
 
@@ -284,25 +294,25 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="contact.html">
-    <span class="fa fa-envelope fa-lg"></span>
+    <span class="fas fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/KyleBarrett">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fab fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.researchgate.net/profile/Kyle_Barrett6">
-    <span class="fa fa-researchgate fa-lg"></span>
+    <span class="fab fa-researchgate fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.linkedin.com/in/kyle-barrett-434926b9/">
-    <span class="fa fa-linkedin fa-lg"></span>
+    <span class="fab fa-linkedin fa-lg"></span>
      
   </a>
 </li>
@@ -319,8 +329,7 @@ $(document).ready(function () {
 </div>
 
 
-<br> <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"/>
-<script type="text/javascript" src="use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<p><br></p>
 <p><img src="www/images/FB_profile.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="left"></p>
 <p>I graduated Drexel in 2019 with a BS in chemical engineering. I have research and lab experience in PKPD modeling, biological colloids, and image analysis. More recently I have focused on developing my proficiency in software development, with an emphasis on creating tools and automating certain processes using R/R Shiny, C++, and HTML/CSS. My programming experiences have often been related to pharmacokinetic modeling and simulation (PBPK and PKPD) and R shiny app development, though I have also modeled anaerobic digestion (See GitHub and ResearchGate portfolios) and created several other web apps. My intended focus is to continue expanding my knowledge base in software development, learn more innovative modeling techniques, and further develop my skills in data analysis and visualization.</p>
 <p>My full CV is available <a href="files/Resume_new.pdf">here</a>.</p>
@@ -344,7 +353,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

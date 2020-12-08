@@ -25,6 +25,15 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
   pre:not([class]) {
@@ -69,6 +78,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="www/css/modest.css" type="text/css" />
 
@@ -284,25 +294,25 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="contact.html">
-    <span class="fa fa-envelope fa-lg"></span>
+    <span class="fas fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/KyleBarrett">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fab fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.researchgate.net/profile/Kyle_Barrett6">
-    <span class="fa fa-researchgate fa-lg"></span>
+    <span class="fab fa-researchgate fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.linkedin.com/in/kyle-barrett-434926b9/">
-    <span class="fa fa-linkedin fa-lg"></span>
+    <span class="fab fa-linkedin fa-lg"></span>
      
   </a>
 </li>
@@ -351,13 +361,14 @@ $(document).ready(function () {
 </ul>
 <p><strong>EducatR R shiny app</strong></p>
 <ul>
-<li>I have made R shiny apps that with more advanced UIs involving HTML and CSS style sheets. You’d never know you were looking at an R shiny app. This app isnt functional, and was only meant as a prototype. However it illustrates my ability to move away from traditional R shiny GUIs. <div class="row">
+<li>I have made R shiny apps that with more advanced UIs involving HTML and CSS style sheets. You’d never know you were looking at an R shiny app. This app isnt functional, and was only meant as a prototype. However it illustrates my ability to move away from traditional R shiny GUIs.</li>
+</ul>
+<div class="row">
 <div class="col-sm-12" align="center">
 <iframe src="https://www.youtube.com/embed/DUwFSHFnWp8" width="420" height="315" frameborder="0" allowfullscreen=""></iframe>
 </div>
 </div>
-<hr></li>
-</ul>
+<hr>
 <p><strong>Homebrewing</strong></p>
 <ul>
 <li>Here’s an example of one of the apps I’ve made for personal use (Homebrewing!). I use it to help me keep track of all the ingredients I like, determine proper measurements, and estimate the pricing before I even start!</li>
@@ -377,7 +388,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

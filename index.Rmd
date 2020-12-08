@@ -5,8 +5,6 @@ output:
 ---
 
 <br>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"/>
-<script type="text/javascript" src="use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 <img src="www/images/FB_profile.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="left">
 
