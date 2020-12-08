@@ -1,10 +1,12 @@
 ---
-
+output:
+  html_document:
+    css: "www/css/modest.css"
 ---
 
 <br>
-<link rel="stylesheet" href="www/css/styles.css" type="text/css">
+
 
 Email: kylebarrett334@gmail.com
 
-You can also connect with me on GitHub, ResearchGate, or Linkedin (links in top right).
+You can also connect with me on GitHub, [ResearchGate](https://www.researchgate.net/profile/Kyle_Barrett6), or Linkedin (links in top right).

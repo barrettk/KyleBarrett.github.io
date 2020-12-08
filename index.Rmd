@@ -1,10 +1,12 @@
 ---
-
+output:
+  html_document:
+    css: "www/css/modest.css"
 ---
 
-<link rel="stylesheet" href="www/css/styles.css" type="text/css">
+<br>
 
-<img src="www/images/FB_profile.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+<img src="www/images/FB_profile.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="left">
 
 I graduated Drexel in 2019 with a BS in chemical engineering. I have research and lab experience in PKPD modeling, biological colloids, and image analysis. More recently I have focused on developing my proficiency in software development, with an emphasis on creating tools and automating certain processes using R/R Shiny, C++, and HTML/CSS. My programming experiences have often been related to pharmacokinetic modeling and simulation (PBPK and PKPD) and R shiny app development, though I have also modeled anaerobic digestion (See GitHub and ResearchGate portfolios) and created several other web apps. My intended focus is to continue expanding my knowledge base in software development, learn more innovative modeling techniques, and further develop my skills in data analysis and visualization. 
 
@@ -14,6 +16,6 @@ My full CV is available [here](files/Resume_new.pdf).
 <hr>
 
 #### Some Hobbies
- - I LOVE homebrewing. Beer, kombucha, wine/hooch, you name it. So much so that I made an [app](https://kylebarrett.shinyapps.io/Kombucha/) to help me keep track of things:)
- - Squash & weight lifting
- - Community volunteering
+* I LOVE homebrewing. Beer, kombucha, wine/hooch, you name it. I even made an [app](https://kylebarrett.shinyapps.io/Kombucha/) to help me keep track of things:)
+* Squash & weight lifting
+* Community volunteering

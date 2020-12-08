@@ -1,9 +1,10 @@
 ---
-
+output:
+  html_document:
+    css: "www/css/modest.css"
 ---
 
-<br>
-<link rel="stylesheet" href="www/css/styles.css" type="text/css">
+
 
 ```{r setup, include=FALSE, echo=FALSE}
 library(htmltools)
@@ -13,9 +14,9 @@ AD_Link <- "https://www.youtube.com/watch?v=Z9XZ7gUKEIQ"
 EducatR_Link <- "https://youtu.be/DUwFSHFnWp8"
 ```
 
-# Professional Work
+### Professional Work
 
-### Certara
+#### Certara
  - <a href="https://pharmacometrics.shinyapps.io/COVID-19-CompoundScreening_TestNewUI/" target="_blank">Compound Screening Dashboard</a>, which links to other apps I worked on.
    -  Note that this link may soon be changed. Will publish the offical Certara link when this happens.
  - <a href="https://pharmacometrics.shinyapps.io/COVID-19-VK-MODEL/" target="_blank">Viral Kinetics Model</a>
@@ -23,7 +24,7 @@ EducatR_Link <- "https://youtu.be/DUwFSHFnWp8"
 
 <hr>
 
-# Github Repositories
+### Github Repositories
 
 **Anaerobic Digestion:**
 
@@ -47,7 +48,7 @@ fluidRow(column(12,align="center",embed_url(EducatR_Link)))
 **Homebrewing**
 
 - Here's an example of one of the apps I've made for personal use (Homebrewing!). I use it to help me keep track of all the ingredients I like, determine proper measurements, and estimate the pricing before I even start!
-- https://kylebarrett.shinyapps.io/Kombucha/
+- You can run the app [full screen](https://kylebarrett.shinyapps.io/Kombucha/) or check it out on [GitHub](https://kylebarrett.github.io/KombuchaBrewing/)
 
 <iframe id="Kombucha App" src=" https://kylebarrett.shinyapps.io/Kombucha/"
 style="border: none; width: 1200px; height: 800px; display:inline-block; text-align:center;"
