@@ -329,6 +329,21 @@ $(document).ready(function () {
 </div>
 
 
+<script type="application/javascript">
+function resizeIFrameToFitContent( iFrame ) {
+    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+    iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+}
+window.addEventListener('DOMContentLoaded', function(e) {
+    var iFrame = document.getElementById( 'Kombucha_App' );
+    resizeIFrameToFitContent( iFrame );
+    // or, to resize all iframes:
+    var iframes = document.querySelectorAll("iframe");
+    for( var i = 0; i < iframes.length; i++) {
+        resizeIFrameToFitContent( iframes[i] );
+    }
+} );
+</script>
 <div id="professional-work" class="section level3">
 <h3>Professional Work</h3>
 <div id="certara" class="section level4">
@@ -374,7 +389,7 @@ $(document).ready(function () {
 <li>Here’s an example of one of the apps I’ve made for personal use (Homebrewing!). I use it to help me keep track of all the ingredients I like, determine proper measurements, and estimate the pricing before I even start!</li>
 <li>You can run the app <a href="https://kylebarrett.shinyapps.io/Kombucha/">full screen</a> or check it out on <a href="https://kylebarrett.github.io/KombuchaBrewing/">GitHub</a></li>
 </ul>
-<iframe id="Kombucha App" src=" https://kylebarrett.shinyapps.io/Kombucha/" style="border: none; width: 1200px; height: 800px; display:inline-block; text-align:center;" frameborder="0">
+<iframe id="Kombucha_App" src=" https://kylebarrett.shinyapps.io/Kombucha/" style="border: none; width: 1200px; height: 800px; display:inline-block; text-align:center;" frameborder="0">
 </iframe>
 <hr>
 </div>

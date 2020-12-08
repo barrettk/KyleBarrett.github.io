@@ -14,6 +14,23 @@ AD_Link <- "https://www.youtube.com/watch?v=Z9XZ7gUKEIQ"
 EducatR_Link <- "https://youtu.be/DUwFSHFnWp8"
 ```
 
+
+<script type="application/javascript">
+function resizeIFrameToFitContent( iFrame ) {
+    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+    iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+}
+window.addEventListener('DOMContentLoaded', function(e) {
+    var iFrame = document.getElementById( 'Kombucha_App' );
+    resizeIFrameToFitContent( iFrame );
+    // or, to resize all iframes:
+    var iframes = document.querySelectorAll("iframe");
+    for( var i = 0; i < iframes.length; i++) {
+        resizeIFrameToFitContent( iframes[i] );
+    }
+} );
+</script>
+
 ### Professional Work
 
 #### Certara
@@ -50,7 +67,7 @@ fluidRow(column(12,align="center",embed_url(EducatR_Link)))
 - Here's an example of one of the apps I've made for personal use (Homebrewing!). I use it to help me keep track of all the ingredients I like, determine proper measurements, and estimate the pricing before I even start!
 - You can run the app [full screen](https://kylebarrett.shinyapps.io/Kombucha/) or check it out on [GitHub](https://kylebarrett.github.io/KombuchaBrewing/)
 
-<iframe id="Kombucha App" src=" https://kylebarrett.shinyapps.io/Kombucha/"
+<iframe id="Kombucha_App" src=" https://kylebarrett.shinyapps.io/Kombucha/"
 style="border: none; width: 1200px; height: 800px; display:inline-block; text-align:center;"
 frameborder="0">
 </iframe>
