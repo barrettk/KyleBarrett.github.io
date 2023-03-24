@@ -11,7 +11,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: contact.html
     - icon: fab fa-github fa-lg
-      href: https://github.com/KyleBarrett
+      href: https://github.com/barrettk
     - icon: fab fa-researchgate fa-lg
       href: https://www.researchgate.net/profile/Kyle_Barrett6
     - icon: fab fa-linkedin fa-lg
