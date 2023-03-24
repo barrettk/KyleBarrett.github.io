@@ -1,0 +1,18 @@
+Version: 1
+
+Packages:
+  - htmltools
+  - vembedr
+  - shiny
+
+
+Repos:
+  - MPN: https://mpn.metworx.com/snapshots/stable/2022-10-20
+  - CRAN: https://cran.rstudio.com 
+
+
+  
+Lockfile:
+    Type: renv
+
+Rpath: ${R_EXE_4_1}

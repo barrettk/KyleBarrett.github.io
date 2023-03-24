@@ -8,7 +8,12 @@ output:
 
 <img src="www/images/FB_profile.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="left">
 
-I graduated Drexel in 2019 with a BS in chemical engineering. I have research and lab experience in PKPD modeling, biological colloids, and image analysis. More recently I have focused on developing my proficiency in software development, with an emphasis on creating tools and automating certain processes using R/R Shiny, C++, and HTML/CSS. My programming experiences have often been related to pharmacokinetic modeling and simulation (PBPK and PKPD) and R shiny app development, though I have also modeled anaerobic digestion (See GitHub and ResearchGate portfolios) and created several other web apps. My intended focus is to continue expanding my knowledge base in software development, learn more innovative modeling techniques, and further develop my skills in data analysis and visualization. 
+
+As a data science engineer with a focus on R package and Shiny app development, I bring a strong skill set and extensive experience to the table. My academic background in Chemical Engineering, combined with my research experience in PKPD modeling, biological colloids, and image analysis, has provided me with a solid foundation in data analysis and software development. Since graduating from Drexel University in 2019, I have honed my expertise in R programming and shiny app development. 
+
+Having primarily programmed in pharmacometrics, I have become proficient in NONMEM, PsN/Pirana, and many other R packages commonly used in the industry. I take pride in designing, building, testing, and validating R packages from start to finish. Additionally, I have developed new Shiny widgets using R, HTML, and CSS, and have presented R Shiny, RSConnect, and Git trainings to both colleagues and clients.
+
+My goal is to continue expanding my knowledge base in R package and Shiny app development, while also learning and developing new software in the field. I am dedicated to further developing my skills in data analysis and visualization,  using these skills to create innovative solutions to complex problems. With a keen eye for detail and a passion for excellence, I am confident in my ability to make valuable contributions to any data-driven organization.
 
 My full CV is available [here](files/Resume_new.pdf).
 

@@ -17,6 +17,15 @@ EducatR_Link <- "https://youtu.be/DUwFSHFnWp8"
 
 ### Professional Work
 
+#### Metrum Research Group
+ - I have contributed to many of the packages found at <a href="https://github.com/metrumresearchgroup" target="_blank">github.com/metrumresearchgroup</a>, relating to NONMEM model management & submission, data visualization (pmforest, pmplots, etc.), data summarization and formatting (exported as latex, HTML, RTF, or MS word), software validation, and R shiny.
+   - Each of these packages bundled together facilitate model development and submission, and are outlined in Metrum's [Expo](https://merge.metrumrg.com/expo/expo1-nonmem-foce/).
+ - Designed and personalized R shiny apps for internal tool development and external client needs, usually relating to PKPD simulation.
+ - Developed a shiny app to contain re-usable shiny modules, with the intention of creating more portable shiny code to be used in multiple client projects.
+ - Developed a complex shiny app to sort through and filter a database with interactive visualizations, statistical summaries, and parameterized report generation. 
+ - Worked on client projects within the scope of data assembly, EDA tables and figures, PK simulation, data visualization and report generation.
+ - Helped validate and write tests for our cloud computing platform, Metworx.
+
 #### Certara
  - <a href="https://pharmacometrics.shinyapps.io/COVID-19-CompoundScreening_TestNewUI/" target="_blank">Compound Screening Dashboard</a>, which links to other apps I worked on.
    -  Note that this link may soon be changed. Will publish the offical Certara link when this happens.
@@ -25,17 +34,20 @@ EducatR_Link <- "https://youtu.be/DUwFSHFnWp8"
 
 <hr>
 
+
 ### Github Repositories
+
+*Note* that these repositories are from my college days, when I wasn't nearly as good or organized at coding:)
 
 **Anaerobic Digestion:**
 
-- I modeled the anaerobic digestion of hydraulic fracking contaminants for my senior design project (<a href="https://kylebarrett.github.io/AnaerobicDigestion/" target="_blank">see GitHub</a>). I used the R package, [mrgsolve](https://github.com/metrumresearchgroup/mrgsolve) to handle the + 40 PDE's describing the advanced biological process and reactor properties. An R shiny dashboard app was constructed to facilitate the adjustment model parameters and reactor settings. The deployed version currently does not run, though it should function properly if you run the files locally. I recorded a video of me using it to illustrate some of the features.
+- I modeled the anaerobic digestion of hydraulic fracking contaminants for my senior design project (<a href="https://barrettk.github.io/AnaerobicDigestion/" target="_blank">see GitHub</a>). I used the R package, [mrgsolve](https://github.com/metrumresearchgroup/mrgsolve) to handle the + 40 PDE's describing the advanced biological process and reactor properties. An R shiny dashboard app was constructed to facilitate the adjustment model parameters and reactor settings. The deployed version currently does not run, though it should function properly if you run the files locally. I recorded a video of me using it to illustrate some of the features.
 
 ```{r echo=FALSE}
 fluidRow(column(12,align="center",embed_url(AD_Link)))
 ```
 
-- Other [repositories](https://github.com/KyleBarrett?tab=repositories) on my GitHub illustrate some of my early R shiny experience, but are not relevant to other skills/interests i'm attempting to showcase.
+- Other [repositories](https://github.com/barrettk?tab=repositories) on my GitHub illustrate some of my early R shiny experience, but are not relevant to other skills/interests i'm attempting to showcase.
 <hr>
 
 **EducatR R shiny app**
@@ -48,9 +60,10 @@ fluidRow(column(12,align="center",embed_url(EducatR_Link)))
 
 **Homebrewing**
 
-* Here's an example of one of the apps I've made for personal use (Homebrewing!). I use it to help me keep track of all the ingredients I like, determine proper measurements, and estimate the pricing before I even start!
+* Here's an example of one of the apps I made for personal use back in the day (Homebrewing!). I used to use it to help me keep track of all the ingredients I liked, determine proper measurements, and estimate the pricing. Never actually sold any, but was glad I learned my profit margins wouldn't be too great.
 * You can run the app full screen on [shinyapps.io](https://kylebarrett.shinyapps.io/Kombucha/) or check it out on [GitHub](https://kylebarrett.github.io/KombuchaBrewing/)
-  * <b>Note:</b> If it looks like some features arent working on shinyapps.io, that means I used the alotted 25 hours/month
+  * <b>Note:</b> It looks like some features arent working too great on shinyapps.io. Choosing not to fix it with my refined knowledge for nostalgia:)
+
 
 <iframe id="Kombucha App" src=" https://kylebarrett.shinyapps.io/Kombucha/"
 style="border: none; width: 1000px; height: 800px; display:inline-block; text-align:center;"
