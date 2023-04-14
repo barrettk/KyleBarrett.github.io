@@ -10,6 +10,10 @@ output:
 library(htmltools)
 library(vembedr)
 library(shiny)
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
+                      fig.height = 8, fig.width = 10)
+
 # AD_Link <- "https://www.youtube.com/watch?v=Z9XZ7gUKEIQ"
 EducatR_Link <- "https://youtu.be/DUwFSHFnWp8"
 ```

@@ -6,6 +6,12 @@ Packages:
   - shiny
   - rmarkdown
   - markdown
+  - shinydashboard
+  - shinydashboardPlus
+  - shinyWidgets
+  - waiter
+  - shinyjs
+  - tidyverse
 
 
 Repos:

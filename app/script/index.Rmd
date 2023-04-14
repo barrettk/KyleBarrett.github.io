@@ -4,9 +4,15 @@ output:
     css: "www/css/modest.css"
 ---
 
+
+```{r}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
+                      fig.height = 8, fig.width = 10)
+```
+
 <br>
 
-<img src="www/images/FB_profile.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="left">
+<img src="../www/images/FB_profile.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="left">
 
 
 Hey there! I'm a data science engineer with a focus on R package and Shiny app development. I graduated from Drexel University in 2019 with a BS in Chemical Engineering, and since then I've honed my skills in data analysis and software development.
