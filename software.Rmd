@@ -1,0 +1,189 @@
+---
+output:
+  html_document:
+    theme: paper
+    css:
+      # - "www/css/kb-shiny.css"
+      - "www/css/modest.css"
+    common-ext-css:
+      - "//use.fontawesome.com/releases/v5.0.6/css/all.css"
+date: "`r format(Sys.time(), '%A %B %d, %Y, %I:%M %p %Z')`"
+---
+
+<style type="text/css">
+.main-container {
+max-width: 100% !important;
+margin: auto;
+}
+</style>
+
+```{r setup_links, include=FALSE, echo=FALSE}
+suppressPackageStartupMessages({
+  library(htmltools)
+  library(vembedr)
+  library(shiny)
+  library(shinycssloaders)
+})
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
+                      fig.height = 8, fig.width = 10)
+
+AD_Link <- "https://www.youtube.com/watch?v=Z9XZ7gUKEIQ"
+EducatR_Link <- "https://youtu.be/DUwFSHFnWp8"
+```
+
+
+### Professional Work
+
+#### Metrum Research Group
+- I have contributed to many of the packages found at <a href="https://github.com/metrumresearchgroup" target="_blank">github.com/metrumresearchgroup</a>, relating to NONMEM model management & submission, data visualization (pmforest, pmplots, etc.), data summarization and formatting (exported as latex, HTML, RTF, or MS word), software validation, and R shiny.
+- Each of these packages bundled together facilitate model development and submission, and are outlined in Metrum's [Expo](https://merge.metrumrg.com/expo/expo1-nonmem-foce/).
+- Designed and personalized R shiny apps for internal tool development and external client needs, usually relating to PKPD simulation.
+- Developed a shiny app to contain re-usable shiny modules, with the intention of creating more portable shiny code to be used in multiple client projects.
+- Developed a complex shiny app to sort through and filter a database with interactive visualizations, statistical summaries, and parameterized report generation. 
+- Worked on client projects within the scope of data assembly, EDA tables and figures, PK simulation, data visualization and report generation.
+- Helped validate and write tests for our cloud computing platform, Metworx.
+
+#### Certara
+- <a href="https://pharmacometrics.shinyapps.io/COVID-19-CompoundScreening_TestNewUI/" target="_blank">Compound Screening Dashboard</a>, which links to other apps I worked on.
+-  Note that this link may soon be changed. Will publish the offical Certara link when this happens.
+- <a href="https://pharmacometrics.shinyapps.io/COVID-19-VK-MODEL/" target="_blank">Viral Kinetics Model</a>
+- I helped develop other apps on <a href="https://www.covidpharmacology.com/in-silico-workbench/"  target="_blank">Certara's website</a> using the flexdashboard R package, though I wouldnt count this as R shiny experience given the R package's simplicity
+
+
+
+
+### Github Repositories
+
+**Note** that the repositories below are from my college days, when I wasn't nearly as good or organized at coding:). I have additional [repositories](https://github.com/barrettk?tab=repositories) on my GitHub that feature notably higher code quality, including improved code organization, readability, and conciseness. While most of these are currently set to private, I would be happy to provide access to interested parties on a case-by-case basis.
+
+I hope to add more personal apps & R packages in the future!
+
+
+```{r}
+
+ad_text <- "
+I modeled the anaerobic digestion of hydraulic fracking contaminants for my senior design project (<a href='https://barrettk.github.io/AnaerobicDigestion/' target='_blank'>see GitHub</a>). The model contains 40+ PDE's describing the advanced biological process and reactor properties. An R shiny dashboard app was constructed to facilitate the adjustment model parameters and reactor settings, allowing for quick simulations and sensitivity analyses. An full-screen instance of the app is hosted <a href='https://kylebarrett.shinyapps.io/AnaerobicDigestion/' target='_blank'>here</a>, but you can view the embedded version below
+"
+
+brew_text <- "
+<ul>
+<li>Here's an example of one of the apps I made for personal use back in the day (Homebrewing!). I used to use it to help me keep track of all the ingredients I liked, determine proper measurements, and estimate the pricing. Never actually sold any, but was glad I learned my profit margins wouldn't be too great.</li>
+<li>You can run the app full screen on <a href='https://kylebarrett.shinyapps.io/Kombucha/' target='_blank'>shinyapps.io</a> or check it out on <a href='https://barrettk.github.io/KombuchaBrewing/' target='_blank'>GitHub</a></li>
+* <b>Note:</b> It looks like some formatting features aren't working too great on shinyapps.io. Choosing not to fix it with my refined knowledge for nostalgia:)
+</ul>
+"
+
+html_style_text <- "
+I have developed R Shiny applications with more sophisticated user interfaces using HTML and CSS style sheets. These apps are designed to look and feel like traditional web applications rather than typical R Shiny interfaces. While the prototype I'm currently sharing is not fully functional, it demonstrates my ability to create modern and polished user interfaces for R Shiny apps.
+"
+
+fluidRow(
+  column(
+    width = 12,
+    br(), br(),
+    shinydashboard::tabBox(
+      width = NULL,
+      tabPanel(
+        "Anaerobic Digestion",
+        br(),br(),
+        fluidRow(
+          column(
+            width = 12,
+            HTML(ad_text),
+            br(),br(),
+            tags$iframe(id="AnaerobicDigestion", src="https://kylebarrett.shinyapps.io/AnaerobicDigestion/",
+                        style="border: none; width: 100%; height: 800px; display:inline-block; text-align:center;",
+                        frameborder="0")
+          )
+        ),
+        hr(),
+        h4("Walkthrough"),
+        fluidRow(
+          column(
+            width = 12, 
+            align="center",
+            embed_url(AD_Link)
+          )
+        )
+      ),
+      tabPanel(
+        "Homebrewing",
+        br(),br(),
+        fluidRow(
+          column(
+            width = 12,
+            HTML(brew_text),
+            br(),br(),
+            tags$iframe(id="Kombucha App", src="https://kylebarrett.shinyapps.io/Kombucha/",
+                        style="border: none; width: 100%; height: 800px; display:inline-block; text-align:center;",
+                        frameborder="0")
+          )
+        )
+      ),
+      tabPanel(
+        "Custom HTML layouts",
+        br(),br(),
+        fluidRow(
+          column(
+            width = 12,
+            HTML(html_style_text)
+          )
+        ),
+        br(),
+        fluidRow(
+          column(
+            width = 12, 
+            align="center",
+            embed_url(EducatR_Link)
+          )
+        )
+      )
+    )
+  )
+)
+```
+
+<!-- **Anaerobic Digestion:** -->
+
+<!-- - I modeled the anaerobic digestion of hydraulic fracking contaminants for my senior design project (<a href="https://barrettk.github.io/AnaerobicDigestion/" target="_blank">see GitHub</a>). The model contains 40+ PDE's describing the advanced biological process and reactor properties. An R shiny dashboard app was constructed to facilitate the adjustment model parameters and reactor settings, allowing for quick simulations and sensitivity analyses. An full-screen instance of the app is hosted <a href="https://kylebarrett.shinyapps.io/AnaerobicDigestion/" target="_blank">here</a>, but you can view the embedded version below: -->
+
+
+
+<!-- <iframe id="AnaerobicDigestion" src=" https://kylebarrett.shinyapps.io/AnaerobicDigestion/" -->
+<!-- style="border: none; width: 1300px; height: 800px; display:inline-block; text-align:center;" -->
+<!-- frameborder="0"> -->
+<!-- </iframe> -->
+
+
+
+<!-- # ```{r AD, echo=FALSE} -->
+<!-- # fluidRow(column(12,align="center",embed_url(AD_Link))) -->
+<!-- # ``` -->
+
+
+<!-- <hr> -->
+
+<!-- **EducatR R shiny app** -->
+
+<!-- - I have developed R Shiny applications with more sophisticated user interfaces using HTML and CSS style sheets. These apps are designed to look and feel like traditional web applications rather than typical R Shiny interfaces. While the prototype I'm currently sharing is not fully functional, it demonstrates my ability to create modern and polished user interfaces for R Shiny apps. -->
+<!-- # ```{r idk, echo=FALSE} -->
+<!-- # fluidRow(column(12,align="center",embed_url(EducatR_Link))) -->
+<!-- # ``` -->
+
+<!-- <hr> -->
+
+<!-- **Homebrewing** -->
+
+<!-- * Here's an example of one of the apps I made for personal use back in the day (Homebrewing!). I used to use it to help me keep track of all the ingredients I liked, determine proper measurements, and estimate the pricing. Never actually sold any, but was glad I learned my profit margins wouldn't be too great. -->
+<!-- * You can run the app full screen on [shinyapps.io](https://kylebarrett.shinyapps.io/Kombucha/) or check it out on [GitHub](https://kylebarrett.github.io/KombuchaBrewing/) -->
+<!-- * <b>Note:</b> It looks like some formatting features aren't working too great on shinyapps.io. Choosing not to fix it with my refined knowledge for nostalgia:) -->
+
+
+<!-- <iframe id="Kombucha App" src=" https://kylebarrett.shinyapps.io/Kombucha/" -->
+<!-- style="border: none; width: 1300px; height: 800px; display:inline-block; text-align:center;" -->
+<!-- frameborder="0"> -->
+<!-- </iframe> -->
+
+<!-- <hr> -->
+

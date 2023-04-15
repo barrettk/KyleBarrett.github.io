@@ -8,10 +8,12 @@ Packages:
   - markdown
   - shinydashboard
   - shinydashboardPlus
+  - shinycssloaders
   - shinyWidgets
   - waiter
   - shinyjs
   - tidyverse
+  - here
 
 
 Repos:
