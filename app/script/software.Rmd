@@ -34,10 +34,12 @@ EducatR_Link <- "https://youtu.be/DUwFSHFnWp8"
 
 
 ### Professional Work
+This section primarily highlights my contributions to ***published*** projects. Most client projects have been confidential, and not all of the software I developed is publicly available (especially R shiny apps).
 
 #### Metrum Research Group
-- I have contributed to many of the packages found at <a href="https://github.com/metrumresearchgroup" target="_blank">github.com/metrumresearchgroup</a>, relating to NONMEM model management & submission, data visualization (pmforest, pmplots, etc.), data summarization and formatting (exported as latex, HTML, RTF, or MS word), software validation, and R shiny.
-- Each of these packages bundled together facilitate model development and submission, and are outlined in Metrum's [Expo](https://merge.metrumrg.com/expo/expo1-nonmem-foce/).
+- I have contributed to many of the packages found at <a href="https://github.com/metrumresearchgroup" target="_blank">github.com/metrumresearchgroup</a>, relating to NONMEM model management & submission, data visualization, data summarization and formatting (exported as latex, HTML, RTF, or MS word), software validation, and R shiny.
+   - I have contributed the most to [bbr](https://metrumresearchgroup.github.io/bbr/), [pmforest](https://metrumresearchgroup.github.io/pmforest/), [mpn.scorecard](https://metrumresearchgroup.github.io/mpn.scorecard/), and [mrgda](https://metrumresearchgroup.github.io/mrgda/), though I have also been closely involved with the development of [nmrec](https://metrumresearchgroup.github.io/nmrec/).
+   - Each of these packages bundled together facilitate model development and submission, and are outlined in Metrum's [Expo](https://merge.metrumrg.com/expo/expo1-nonmem-foce/).
 - Designed and personalized R shiny apps for internal tool development and external client needs, usually relating to PKPD simulation.
 - Developed a shiny app to contain re-usable shiny modules, with the intention of creating more portable shiny code to be used in multiple client projects.
 - Developed a complex shiny app to sort through and filter a database with interactive visualizations, statistical summaries, and parameterized report generation. 
@@ -54,6 +56,9 @@ EducatR_Link <- "https://youtu.be/DUwFSHFnWp8"
 
 
 ### Github Repositories
+
+ - [pythonR](https://barrettk.github.io/pythonR/): A developer R package for using python
+ - [songClip](https://github.com/MLVisions/songClip): Prototype R package for running a DJ booth. Runs an R shiny app.
 
 **Note** that the repositories below are from my college days, when I wasn't nearly as good or organized at coding:). I have additional [repositories](https://github.com/barrettk?tab=repositories) on my GitHub that feature notably higher code quality, including improved code organization, readability, and conciseness. While most of these are currently set to private, I would be happy to provide access to interested parties on a case-by-case basis.
 
