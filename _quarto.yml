@@ -8,9 +8,7 @@ format:
     page-layout: full
     # df-print: paged
     toc: true
-    toc-title: R shiny apps
-    # toc-location: left
-    number-depth: 3
+    number-depth: 4
     theme: default
     css: 
       - "www/assets/css/styles_quarto.css"
