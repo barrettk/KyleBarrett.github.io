@@ -1,11 +1,12 @@
 ---
 output:
   html_document:
-    css: "www/css/modest.css"
+    theme: paper
+    css:
+      - "www/css/modest.css"
 ---
 
 <br>
-
 
 ### Selected publications
 

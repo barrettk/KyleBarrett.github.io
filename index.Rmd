@@ -21,3 +21,6 @@ My goal is to continue expanding my knowledge base in R package and Shiny app de
 When I'm not coding, I enjoy homebrewing (beer, kombucha, wine/hooch, you name it!), karaoke, and converting my apartment into an indoor jungle.
 
 If you'd like to learn more about my background and skills, check out my <a href="software.html">software experiences</a> or full CV [here](files/Resume_new.pdf).
+
+<hr>
+##### Last Updated: `r format(Sys.time(), '%A %B %d, %Y, %I:%M %p %Z')`
