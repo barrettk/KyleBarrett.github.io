@@ -7,6 +7,4 @@ output:
 <br>
 
 
-Email: kylebarrett334@gmail.com
-
-You can also connect with me on GitHub, [ResearchGate](https://www.researchgate.net/profile/Kyle_Barrett6), or Linkedin (links in top right).
+You can connect with me on GitHub, [ResearchGate](https://www.researchgate.net/profile/Kyle_Barrett6), or Linkedin (links in top right).

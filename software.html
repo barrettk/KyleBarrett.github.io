@@ -293,15 +293,26 @@ $(document).ready(function () {
 
 <div id="professional-work" class="section level3">
 <h3>Professional Work</h3>
+<p>This section primarily highlights my contributions to
+<strong><em>published</em></strong> projects. Most client projects have
+been confidential, and not all of the software I developed is publicly
+available (especially R shiny apps).</p>
 <div id="metrum-research-group" class="section level4">
 <h4>Metrum Research Group</h4>
 <ul>
 <li>I have contributed to many of the packages found at
 <a href="https://github.com/metrumresearchgroup" target="_blank">github.com/metrumresearchgroup</a>,
-relating to NONMEM model management &amp; submission, data visualization
-(pmforest, pmplots, etc.), data summarization and formatting (exported
-as latex, HTML, RTF, or MS word), software validation, and R shiny.
+relating to NONMEM model management &amp; submission, data
+visualization, data summarization and formatting (exported as latex,
+HTML, RTF, or MS word), software validation, and R shiny.
 <ul>
+<li>I have contributed the most to <a
+href="https://metrumresearchgroup.github.io/bbr/">bbr</a>, <a
+href="https://metrumresearchgroup.github.io/pmforest/">pmforest</a>, <a
+href="https://metrumresearchgroup.github.io/mpn.scorecard/">mpn.scorecard</a>,
+and <a href="https://metrumresearchgroup.github.io/mrgda/">mrgda</a>,
+though I have also been closely involved with the development of <a
+href="https://metrumresearchgroup.github.io/nmrec/">nmrec</a>.</li>
 <li>Each of these packages bundled together facilitate model development
 and submission, and are outlined in Metrum’s <a
 href="https://merge.metrumrg.com/expo/expo1-nonmem-foce/">Expo</a>.</li>
@@ -325,11 +336,9 @@ Metworx.</li>
 <h4>Certara</h4>
 <ul>
 <li><a href="https://pharmacometrics.shinyapps.io/COVID-19-CompoundScreening_TestNewUI/" target="_blank">Compound
-Screening Dashboard</a>, which links to other apps I worked on.
-<ul>
+Screening Dashboard</a>, which links to other apps I worked on.</li>
 <li>Note that this link may soon be changed. Will publish the offical
 Certara link when this happens.</li>
-</ul></li>
 <li><a href="https://pharmacometrics.shinyapps.io/COVID-19-VK-MODEL/" target="_blank">Viral
 Kinetics Model</a></li>
 <li>I helped develop other apps on
@@ -339,8 +348,26 @@ this as R shiny experience given the R package’s simplicity</li>
 </ul>
 </div>
 </div>
-<div id="github-repositories" class="section level3">
-<h3>Github Repositories</h3>
+<div id="personal-projects-github-repositories" class="section level3">
+<h3>Personal Projects &amp; Github Repositories</h3>
+<p>The following repositories illustrate some of my more recent personal
+coding projects:</p>
+<ul>
+<li><p><a href="https://barrettk.github.io/pythonR/">pythonR</a>:
+pythonR is an R package that facilitates the seamless integration of
+Python code and functionality within R environments. Leveraging the
+reticulate package, pythonR aims to simplify the process of developing
+Python-based functions in R, making it easier to set up, test, and
+validate Python code directly within the R environment.</p></li>
+<li><p><a href="https://mlvisions.github.io/songClip/">songClip</a>:
+Prototype R package for running a DJ booth! The core
+<code>clip_song()</code> function runs an R shiny app. The app will
+allow you to import an audio library, choose a specific song (any audio
+file of similar size), modify sound settings (crop it, create loops,
+adjust equalizer settings, alter playback speed, etc.), and then save
+out the modified song. The hope was to eventually support layering
+tracks, similar to a DJ booth, but that is quite a whiles away.</p></li>
+</ul>
 <p><strong>Note</strong> that the repositories below are from my college
 days, when I wasn’t nearly as good or organized at coding:). I have
 additional <a
@@ -351,31 +378,76 @@ currently set to private, I would be happy to provide access to
 interested parties on a case-by-case basis.</p>
 <p>I hope to add more personal apps &amp; R packages in the future!</p>
 <hr>
-<p><strong>Anaerobic Digestion:</strong></p>
-<ul>
-<li>I modeled the anaerobic digestion of hydraulic fracking contaminants
-for my senior design project
-(<a href="https://barrettk.github.io/AnaerobicDigestion/" target="_blank">see
-GitHub</a>). The model contains 40+ PDE’s describing the advanced
-biological process and reactor properties. An R shiny dashboard app was
-constructed to facilitate the adjustment model parameters and reactor
-settings, allowing for quick simulations and sensitivity analyses. An
-full-screen instance of the app is hosted
-<a href="https://kylebarrett.shinyapps.io/AnaerobicDigestion/" target="_blank">here</a>,
-but you can view the embedded version below:</li>
+<div class="row">
+<div class="col-sm-12">
+<br/>
+<br/>
+<div class="col-sm-">
+<div class="nav-tabs-custom">
+<ul class="nav nav-tabs" data-tabsetid="5856">
+<li class="active">
+<a href="#tab-5856-1" data-toggle="tab" data-bs-toggle="tab" data-value="Anaerobic Digestion">Anaerobic Digestion</a>
+</li>
+<li>
+<a href="#tab-5856-2" data-toggle="tab" data-bs-toggle="tab" data-value="Homebrewing">Homebrewing</a>
+</li>
+<li>
+<a href="#tab-5856-3" data-toggle="tab" data-bs-toggle="tab" data-value="Custom HTML layouts">Custom HTML layouts</a>
+</li>
 </ul>
-<iframe id="Kombucha App" src=" https://kylebarrett.shinyapps.io/AnaerobicDigestion/" style="border: none; width: 1300px; height: 800px; display:inline-block; text-align:center;" frameborder="0">
-</iframe>
-<hr>
-<p><strong>EducatR R shiny app</strong></p>
+<div class="tab-content" data-tabsetid="5856">
+<div class="tab-pane active" data-value="Anaerobic Digestion" id="tab-5856-1">
+<br/>
+<br/>
+<div class="row">
+<div class="col-sm-12">
+
+I modeled the anaerobic digestion of hydraulic fracking contaminants for my senior design project (<a href='https://barrettk.github.io/AnaerobicDigestion/' target='_blank'>see GitHub</a>). The model contains 40+ PDE's describing the advanced biological process and reactor properties. An R shiny dashboard app was constructed to facilitate the adjustment model parameters and reactor settings, allowing for quick simulations and sensitivity analyses. An full-screen instance of the app is hosted <a href='https://kylebarrett.shinyapps.io/AnaerobicDigestion/' target='_blank'>here</a>, but you can view the embedded version below
+
+<br/>
+<br/>
+<iframe id="AnaerobicDigestion" src="https://kylebarrett.shinyapps.io/AnaerobicDigestion/" style="border: none; width: 1300px; height: 800px; display:inline-block; text-align:center;" frameborder="0"></iframe>
+</div>
+</div>
+<hr/>
+<h4>Walkthrough</h4>
+<div class="row">
+<div class="col-sm-12" align="center">
+<div class="vembedr">
+<div>
+<iframe src="https://www.youtube.com/embed/Z9XZ7gUKEIQ" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane" data-value="Homebrewing" id="tab-5856-2">
+<br/>
+<br/>
+<div class="row">
+<div class="col-sm-12">
+
 <ul>
-<li>I have developed R Shiny applications with more sophisticated user
-interfaces using HTML and CSS style sheets. These apps are designed to
-look and feel like traditional web applications rather than typical R
-Shiny interfaces. While the prototype I’m currently sharing is not fully
-functional, it demonstrates my ability to create modern and polished
-user interfaces for R Shiny apps.</li>
+<li>Here's an example of one of the apps I made for personal use back in the day (Homebrewing!). I used to use it to help me keep track of all the ingredients I liked, determine proper measurements, and estimate the pricing. Never actually sold any, but was glad I learned my profit margins wouldn't be too great.</li>
+<li>You can run the app full screen on <a href='https://kylebarrett.shinyapps.io/Kombucha/' target='_blank'>shinyapps.io</a> or check it out on <a href='https://barrettk.github.io/KombuchaBrewing/' target='_blank'>GitHub</a></li>
+<ul><li><b>Note:</b> It looks like some formatting features aren't working too great on shinyapps.io. Choosing not to fix it with my refined knowledge for nostalgia:)</li></ul>
 </ul>
+
+<br/>
+<br/>
+<iframe id="Kombucha App" src="https://kylebarrett.shinyapps.io/Kombucha/" style="border: none; width: 1300px; height: 800px; display:inline-block; text-align:center;" frameborder="0"></iframe>
+</div>
+</div>
+</div>
+<div class="tab-pane" data-value="Custom HTML layouts" id="tab-5856-3">
+<br/>
+<br/>
+<div class="row">
+<div class="col-sm-12">
+I have developed R Shiny applications with more sophisticated user interfaces using HTML and CSS style sheets. These apps are designed to look and feel like traditional web applications rather than typical R Shiny interfaces. While the prototype I'm currently sharing is not fully functional, it demonstrates my ability to create modern and polished user interfaces for R Shiny apps.
+</div>
+</div>
+<br/>
 <div class="row">
 <div class="col-sm-12" align="center">
 <div class="vembedr">
@@ -385,27 +457,17 @@ user interfaces for R Shiny apps.</li>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <hr>
-<p><strong>Homebrewing</strong></p>
-<ul>
-<li>Here’s an example of one of the apps I made for personal use back in
-the day (Homebrewing!). I used to use it to help me keep track of all
-the ingredients I liked, determine proper measurements, and estimate the
-pricing. Never actually sold any, but was glad I learned my profit
-margins wouldn’t be too great.</li>
-<li>You can run the app full screen on <a
-href="https://kylebarrett.shinyapps.io/Kombucha/">shinyapps.io</a> or
-check it out on <a
-href="https://kylebarrett.github.io/KombuchaBrewing/">GitHub</a>
-<ul>
-<li><b>Note:</b> It looks like some formatting features aren’t working
-too great on shinyapps.io. Choosing not to fix it with my refined
-knowledge for nostalgia:)</li>
-</ul></li>
-</ul>
-<iframe id="Kombucha App" src=" https://kylebarrett.shinyapps.io/Kombucha/" style="border: none; width: 1300px; height: 800px; display:inline-block; text-align:center;" frameborder="0">
-</iframe>
-<hr>
+<div id="last-updated-saturday-february-10-2024-1119-am-est"
+class="section level5">
+<h5>Last Updated: Saturday February 10, 2024, 11:19 AM EST</h5>
+</div>
 </div>
 
 
