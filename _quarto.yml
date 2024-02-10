@@ -1,0 +1,78 @@
+project:
+  type: website
+  execute-dir: project
+  output-dir: docs
+
+format:
+  html:
+    page-layout: full
+    # df-print: paged
+    toc: true
+    toc-title: R shiny apps
+    # toc-location: left
+    number-depth: 3
+    theme: default
+    css: "www/assets/css/styles_quarto.css"
+    fig-align: center
+    text-align: justify
+    link-external-icon: true
+    link-external-newwindow: true
+    anchor-sections: true
+    linkcolor: "#16b1bf"
+    fontsize: "14pt"
+    include-after-body: www/hubspot.html
+
+website:
+  title: "Kyle Barrett"
+    repo-url: https://github.com/barrettk/barrettk.github.io
+  repo-actions: [issue]
+  # google-analytics:
+  cookie-consent: true
+  search:
+    location: sidebar
+  sidebar:
+    search: true
+    title: Navigation
+    border: true
+    contents:
+      - text: Home
+        href: index.html
+        icon: bank
+      - text: "About me"
+        href: index.html
+      - text: "Software Development"
+        href: software.html
+      - text: "Research & Publications"
+        href: research.html
+  navbar:
+    logo: www/FB_profile.jpg
+    background: "white"
+    foreground: "black"
+    right:
+      - icon: fa-envelope fa-lg
+        href: contact.html
+      - icon: github
+        href: https://github.com/barrettk
+      - icon: fab fa-researchgate fa-lg
+        href: https://www.researchgate.net/profile/Kyle_Barrett6
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kyle-barrett-434926b9/
+  page-footer:
+    left: |
+      Personal Portfolio
+    center:
+      - text: "Home"
+        href: index.html
+    right:
+      - icon: fa-envelope fa-lg
+        href: contact.html
+      - icon: fab fa-github fa-lg
+        href: https://github.com/barrettk/barrettk.github.io
+        aria-label: Repository GitHub
+      - icon: fab fa-researchgate fa-lg
+        href: https://www.researchgate.net/profile/Kyle_Barrett6
+      - icon: fab fa-linkedin fa-lg
+        href: https://www.linkedin.com/in/kyle-barrett-434926b9/
+
+        
+        

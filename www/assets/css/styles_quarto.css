@@ -1,0 +1,42 @@
+
+
+/* Base font */
+body {
+  color: #444;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+  line-height: 1.45;
+  padding: .25rem;
+  text-align: justify;
+  font-size:16px;
+}
+
+
+/* custom button */
+.btn-custom {
+  background-color: #15b1bf; 
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  display: inline-block;
+  border-radius: 12px;
+}
+/* Darker background on mouse-over */
+.btn-custom:hover {
+  background-color: #337ab7;
+}
+
+/* For right aligned full screen button */
+
+.fullscreen-btn-container {
+  position: relative;
+  /* top: 0; */
+  /* right: 20px; */
+  float: right;
+  /*margin-top: -20px; */ /* Adjust the margin as needed */
+}
+
+

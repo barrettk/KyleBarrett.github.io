@@ -1,0 +1,115 @@
+
+/* material modifications */
+.header-panel{
+    background-color: #15b1bf; /* Green is #007319*/
+    min-height: 175px;
+    position: relative;
+    z-index: 3;
+}
+
+.header-panel h1 {
+    color: #FFF;
+    font-size: 36px;
+    padding-left: 35px;
+    text-align: left;
+}
+
+.header-panel h4.date {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 20px 0 20px 50px;
+    font-size: 18px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+
+
+/* controls width of card (app & description) */
+.col-xs-10 {
+    width: 90%;
+}
+
+/* Base font */
+body {
+  color: #444;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+  line-height: 1.45;
+  padding: .25rem;
+  text-align: justify;
+  font-size:16px;
+  overflow-y: hidden;
+}
+
+
+/* custom button */
+.btn-custom {
+  background-color: #15b1bf; 
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  display: inline-block;
+  border-radius: 12px;
+}
+/* Darker background on mouse-over */
+.btn-custom:hover {
+  background-color: #337ab7;
+}
+
+/* For right aligned full screen button */
+.nav-pills {
+  position: relative;
+}
+.nav-pills > li:has(.fullscreen-btn-container) {
+  float: right;
+  margin-right: 7em;
+  padding-bottom: 10px;
+}
+
+.fullscreen-btn-container {
+  position: absolute;
+  /* top: 0; */
+  /* right: 20px; */
+  margin-top: -20px; /* Adjust the margin as needed */
+}
+.nav>li {
+  position: unset;
+  display: block;
+}
+.fullscreen-btn-container > a, .fullscreen-btn-container > a:focus, .fullscreen-btn-container > a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* navbar */
+
+/* 
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  margin-right: -6em;
+  margin-left: -15em;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.header-panel {
+  top: 6.5em; 
+}
+
+#toc {
+  top: 6em !important;
+  position: relative;
+}
+*/
