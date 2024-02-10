@@ -12,7 +12,10 @@ format:
     # toc-location: left
     number-depth: 3
     theme: default
-    css: "www/assets/css/styles_quarto.css"
+    css: 
+      - "www/assets/css/styles_quarto.css"
+    common-ext-css:
+      - "//use.fontawesome.com/releases/v5.0.6/css/all.css"
     fig-align: center
     text-align: justify
     link-external-icon: true
@@ -24,10 +27,9 @@ format:
 
 website:
   title: "Kyle Barrett"
-    repo-url: https://github.com/barrettk/barrettk.github.io
+  repo-url: https://github.com/barrettk/barrettk.github.io
   repo-actions: [issue]
   # google-analytics:
-  cookie-consent: true
   search:
     location: sidebar
   sidebar:
@@ -38,25 +40,46 @@ website:
       - text: Home
         href: index.html
         icon: bank
-      - text: "About me"
-        href: index.html
-      - text: "Software Development"
-        href: software.html
+      - section: "Software Development"
+        contents:
+          - section: "Professional Development"
+            contents:
+              - text: "Metrum Research Group"
+                href: software.html#metrum-research-group
+              - text: "Certara"
+                href: software.html#certara
+          - section: "Personal Projects & Github Repositories"
+            contents:
+              - text: "pythonR R package"
+                href: software.html#pythonr
+              - text: "songClip R package"
+                href: software.html#songclip
+              - text: "Archived Projects"
+                href: software.html#archived-projects
       - text: "Research & Publications"
         href: research.html
   navbar:
-    logo: www/FB_profile.jpg
     background: "white"
     foreground: "black"
     right:
-      - icon: fa-envelope fa-lg
-        href: contact.html
+      - text: "Home"
+        href: index.html
       - icon: github
         href: https://github.com/barrettk
-      - icon: fab fa-researchgate fa-lg
-        href: https://www.researchgate.net/profile/Kyle_Barrett6
       - icon: linkedin
         href: https://www.linkedin.com/in/kyle-barrett-434926b9/
+      - text: "Repositories & External Links"
+        menu:
+          - text: "pythonR github.io"
+            href: https://barrettk.github.io/pythonR/
+          - text: "songClip github.io"
+            href: https://mlvisions.github.io/songClip/
+          - text: "Anerobic Digestion github.io"
+            href: https://barrettk.github.io/AnaerobicDigestion/
+          - text: "Kombucha Brewing github.io"
+            href: https://barrettk.github.io/KombuchaBrewing/
+          - text: "ResearchGate Portfolio"
+            href: https://www.researchgate.net/profile/Kyle_Barrett6
   page-footer:
     left: |
       Personal Portfolio
@@ -64,14 +87,12 @@ website:
       - text: "Home"
         href: index.html
     right:
-      - icon: fa-envelope fa-lg
-        href: contact.html
-      - icon: fab fa-github fa-lg
+      - icon: github
         href: https://github.com/barrettk/barrettk.github.io
         aria-label: Repository GitHub
-      - icon: fab fa-researchgate fa-lg
+      - icon: researchgate
         href: https://www.researchgate.net/profile/Kyle_Barrett6
-      - icon: fab fa-linkedin fa-lg
+      - icon: linkedin
         href: https://www.linkedin.com/in/kyle-barrett-434926b9/
 
         

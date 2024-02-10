@@ -1,9 +1,7 @@
 ---
-output:
-  html_document:
-    theme: paper
-    css:
-      - "www/css/modest.css"
+title: "Research & Publications"
+title-block-banner: '#16b1bf'
+title-block-banner-color: white
 ---
 
 <br>

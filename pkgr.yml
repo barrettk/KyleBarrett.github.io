@@ -15,6 +15,7 @@ Packages:
   - tidyverse
   - here
   - quarto
+  - checkmate
 
 
 Repos:
