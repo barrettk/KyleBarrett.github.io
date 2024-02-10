@@ -1,0 +1,99 @@
+project:
+  type: website
+  execute-dir: project
+  output-dir: docs
+
+format:
+  html:
+    page-layout: full
+    # df-print: paged
+    toc: true
+    toc-title: R shiny apps
+    # toc-location: left
+    number-depth: 3
+    theme: default
+    css: 
+      - "www/assets/css/styles_quarto.css"
+    common-ext-css:
+      - "//use.fontawesome.com/releases/v5.0.6/css/all.css"
+    fig-align: center
+    text-align: justify
+    link-external-icon: true
+    link-external-newwindow: true
+    anchor-sections: true
+    linkcolor: "#16b1bf"
+    fontsize: "14pt"
+    include-after-body: www/hubspot.html
+
+website:
+  title: "Kyle Barrett"
+  repo-url: https://github.com/barrettk/barrettk.github.io
+  repo-actions: [issue]
+  # google-analytics:
+  search:
+    location: sidebar
+  sidebar:
+    search: true
+    title: Navigation
+    border: true
+    contents:
+      - text: Home
+        href: index.html
+        icon: bank
+      - section: "Software Development"
+        contents:
+          - section: "Professional Development"
+            contents:
+              - text: "Metrum Research Group"
+                href: software.html#metrum-research-group
+              - text: "Certara"
+                href: software.html#certara
+          - section: "Personal Projects & Github Repositories"
+            contents:
+              - text: "pythonR R package"
+                href: software.html#pythonr
+              - text: "songClip R package"
+                href: software.html#songclip
+              - text: "Archived Projects"
+                href: software.html#archived-projects
+      - text: "Research & Publications"
+        href: research.html
+  navbar:
+    background: "white"
+    foreground: "black"
+    right:
+      - text: "Home"
+        href: index.html
+      - icon: github
+        href: https://github.com/barrettk
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kyle-barrett-434926b9/
+      - text: "Repositories & External Links"
+        menu:
+          - text: "pythonR github.io"
+            href: https://barrettk.github.io/pythonR/
+          - text: "songClip github.io"
+            href: https://mlvisions.github.io/songClip/
+          - text: "Anerobic Digestion github.io"
+            href: https://barrettk.github.io/AnaerobicDigestion/
+          - text: "Kombucha Brewing github.io"
+            href: https://barrettk.github.io/KombuchaBrewing/
+          - text: "ResearchGate Portfolio"
+            href: https://www.researchgate.net/profile/Kyle_Barrett6
+  page-footer:
+    left: |
+      Personal Portfolio
+    center:
+      - text: "Home"
+        href: index.html
+    right:
+      - icon: github
+        href: https://github.com/barrettk/barrettk.github.io
+        aria-label: Repository GitHub
+      - icon: researchgate
+        href: https://www.researchgate.net/profile/Kyle_Barrett6
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kyle-barrett-434926b9/
+
+        
+        

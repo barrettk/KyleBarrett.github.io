@@ -1,0 +1,55 @@
+---
+output: 
+  html:
+    css: "assets/css/styles_quarto.css"
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = ".",
+  echo = FALSE)
+library(htmltools)
+library(fontawesome)
+library(dplyr)
+
+func_dir <- here::here("functions")
+functions <- list.files(func_dir)
+for(function.i in functions){
+  source(file.path(func_dir, function.i))
+}
+
+app_url <- "{{deployment_url}}"
+```
+
+<!-- For RMD: -->
+<!-- # {{app_name}} {.tabset .tabset-fade .tabset-pills} --> 
+
+### {{app_name}} 
+
+
+```{r results="asis"}
+ create_fullscreen_btn(app_url)
+```
+
+
+::: {.panel-tabset}
+
+## Description
+{{app_description}}
+
+
+```{r}
+#| output: asis
+ prev_str <- paste("## App Preview", fa("tablet-screen-button", fill = "#15b1bf"))
+ cat(prev_str)
+```
+
+
+```{r}
+#| column: screen-inset-shaded
+embedd_app(app_url)
+```
+
+
+:::

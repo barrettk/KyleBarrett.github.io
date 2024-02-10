@@ -14,10 +14,12 @@ Packages:
   - shinyjs
   - tidyverse
   - here
+  - quarto
+  - checkmate
 
 
 Repos:
-  - MPN: https://mpn.metworx.com/snapshots/stable/2022-10-20
+  - MPN: https://mpn.metworx.com/snapshots/stable/2023-12-05
   - CRAN: https://cran.rstudio.com 
 
 

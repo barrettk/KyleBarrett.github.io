@@ -1,0 +1,57 @@
+---
+output: 
+  html:
+    css: "assets/css/styles_quarto.css"
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = ".",
+  echo = FALSE)
+library(htmltools)
+library(fontawesome)
+library(dplyr)
+
+func_dir <- here::here("functions")
+functions <- list.files(func_dir)
+for(function.i in functions){
+  source(file.path(func_dir, function.i))
+}
+
+app_url <- "https://kylebarrett.shinyapps.io/AnaerobicDigestion/"
+```
+
+<!-- For RMD: -->
+<!-- # Anaerobic Digestion {.tabset .tabset-fade .tabset-pills} --> 
+
+### Anaerobic Digestion 
+
+
+```{r results="asis"}
+ create_fullscreen_btn(app_url)
+```
+
+
+::: {.panel-tabset}
+
+## Description
+#### Background
+
+I modeled the anaerobic digestion of hydraulic fracking contaminants for my senior design project (<a href='https://barrettk.github.io/AnaerobicDigestion/' target='_blank'>see GitHub</a>). The model contains 40+ PDE's describing the advanced biological process and reactor properties. An R shiny dashboard app was constructed to facilitate the adjustment model parameters and reactor settings, allowing for quick simulations and sensitivity analyses.
+
+
+```{r}
+#| output: asis
+ prev_str <- paste("## App Preview", fa("tablet-screen-button", fill = "#15b1bf"))
+ cat(prev_str)
+```
+
+
+```{r}
+#| column: screen-inset-shaded
+embedd_app(app_url)
+```
+
+
+:::
