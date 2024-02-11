@@ -68,13 +68,13 @@ website:
         href: https://www.linkedin.com/in/kyle-barrett-434926b9/
       - text: "Repositories & External Links"
         menu:
-          - text: "pythonR github.io"
+          - text: "pythonR"
             href: https://barrettk.github.io/pythonR/
-          - text: "songClip github.io"
+          - text: "songClip"
             href: https://mlvisions.github.io/songClip/
-          - text: "Anerobic Digestion github.io"
+          - text: "Anerobic Digestion"
             href: https://barrettk.github.io/AnaerobicDigestion/
-          - text: "Kombucha Brewing github.io"
+          - text: "Kombucha Brewing"
             href: https://barrettk.github.io/KombuchaBrewing/
           - text: "ResearchGate Portfolio"
             href: https://www.researchgate.net/profile/Kyle_Barrett6
@@ -88,10 +88,10 @@ website:
       - icon: github
         href: https://github.com/barrettk/barrettk.github.io
         aria-label: Repository GitHub
-      - icon: researchgate
-        href: https://www.researchgate.net/profile/Kyle_Barrett6
       - icon: linkedin
         href: https://www.linkedin.com/in/kyle-barrett-434926b9/
+      - text: ResearchGate
+        href: https://www.researchgate.net/profile/Kyle_Barrett6
 
         
         
