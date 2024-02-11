@@ -84,6 +84,7 @@ I hope to add more personal apps & R packages in the future!
 about_sections <- get_about_sections(shiny_dir = here::here("shiny_apps"), current_dir = getwd())
 ```
 
+:::: {.column-screen}
 ::: {.panel-tabset}
 
 ```{r echo=FALSE, results='asis'}
@@ -102,6 +103,6 @@ embed_url(EducatR_Link)
 ```
 
 :::
-
+:::: 
 
 
