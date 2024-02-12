@@ -2,6 +2,7 @@
 title: "Research & Publications"
 title-block-banner: '#16b1bf'
 title-block-banner-color: white
+toc: false
 ---
 
 <br>
