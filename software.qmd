@@ -62,10 +62,14 @@ This section primarily highlights my contributions to ***published*** projects. 
 The following repositories illustrate some of my more recent personal coding projects:
 
 ### pythonR
-- [pythonR](https://barrettk.github.io/pythonR/): pythonR is an R package that facilitates the seamless integration of Python code and functionality within R environments. Leveraging the reticulate package, pythonR aims to simplify the process of developing Python-based functions in R, making it easier to set up, test, and validate Python code directly within the R environment.
+<img src='www/assets/logo-pythonR.png' align="right" height="160" style="float:right; height:160px;"/>
+
+- [pythonR](https://barrettk.github.io/pythonR/): `pythonR` is an R package that facilitates the seamless integration of Python code and functionality within R environments. Leveraging the `reticulate` package, `pythonR` aims to simplify the process of developing Python-based functions in R, making it easier to set up, test, and validate Python code directly within the R environment.
 
 ### songClip
-- [songClip](https://mlvisions.github.io/songClip/): Prototype R package for running a DJ booth! The core `clip_song()` function runs an R shiny app. The app will allow you to import an audio library, choose a specific song (any audio file of similar size), modify sound settings (crop it, create loops, adjust equalizer settings, alter playback speed, etc.), and then save out the modified song. The hope was to eventually support layering tracks, similar to a DJ booth, but that is quite a whiles away.
+<img src='www/assets/logo-songClip.png' align="right" height="169" style="float:right; height:169px;"/>
+
+- [songClip](https://mlvisions.github.io/songClip/): `songClip` is a prototype R package for running a DJ booth! The core `clip_song()` function runs an R shiny app. The app will allow you to import an audio library, choose a specific song (any audio file of similar size), modify sound settings (crop it, create loops, adjust equalizer settings, alter playback speed, etc.), and then save out the modified song. The hope was to eventually support layering tracks, similar to a DJ booth, but that is quite a whiles away.
 
 
 ## Archived Projects
