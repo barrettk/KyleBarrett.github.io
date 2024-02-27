@@ -20,9 +20,16 @@ Packages:
 
 Repos:
   - MPN: https://mpn.metworx.com/snapshots/stable/2023-12-05
-  - CRAN: https://cran.rstudio.com 
+  - CRAN: https://cran.rstudio.com
+  - CRAN_Micro: https://packagemanager.rstudio.com/cran/2023-12-05
 
 
+Customizations:
+  Packages:
+    - quarto:
+        Suggests: true
+        Type: source
+        Repo: CRAN_Micro
   
 Lockfile:
     Type: renv

@@ -1,6 +1,6 @@
 ---
 title: "Research & Publications"
-title-block-banner: '#16b1bf'
+title-block-banner: '#007319'
 title-block-banner-color: white
 toc: false
 ---

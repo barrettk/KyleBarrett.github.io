@@ -1,6 +1,9 @@
 ---
 title: "About me"
-title-block-banner: '#16b1bf'
+author: "Kyle Barrett"
+date: last-modified
+date-format: full
+title-block-banner: '#007319'
 title-block-banner-color: white
 toc: false
 ---
@@ -9,6 +12,7 @@ toc: false
 library(dplyr)
 library(htmltools)
 library(fontawesome)
+fontawesome::fa_html_dependency()
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
@@ -31,6 +35,3 @@ Looking ahead, I aim to further elevate my proficiency in R package and Shiny ap
 When I'm not coding, I enjoy homebrewing (beer, kombucha, you name it!), karaoke (I have a sick light setup), and converting my apartment into an indoor jungle.
 
 If you'd like to learn more about my background and skills, check out my <a href="software.html">software experiences</a> or full CV [here](files/Resume_new.pdf).
-
-
-###### Last Updated: `r format(Sys.time(), '%A %B %d, %Y, %I:%M %p %Z')`
