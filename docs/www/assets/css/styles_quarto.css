@@ -23,6 +23,7 @@ body {
   cursor: pointer; /* Mouse pointer on hover */
   display: inline-block;
   border-radius: 12px;
+  float: right;
 }
 
 /* Darker background on mouse-over */
@@ -40,10 +41,14 @@ body {
 }
 
 /* To make app demos show over the sidebard */
-#quarto-content.page-columns #quarto-margin-sidebar, #quarto-content.page-columns #quarto-sidebar {
+/*#quarto-content.page-columns #quarto-margin-sidebar, #quarto-content.page-columns #quarto-sidebar {
   position: relative;
   z-index: 1;
 }
 .tab-content, .page-columns, .page-full {
   z-index: 2;
+}*/
+
+.tab-content, .page-columns, .page-full {
+  border: 0px;
 }

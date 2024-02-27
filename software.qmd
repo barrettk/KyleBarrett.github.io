@@ -1,6 +1,6 @@
 ---
 title: "Software Development"
-title-block-banner: '#16b1bf'
+title-block-banner: '#007319'
 title-block-banner-color: white
 ---
 
@@ -35,23 +35,22 @@ EducatR_Link <- "https://youtu.be/DUwFSHFnWp8"
 ```
 
 # Professional Work
-This section primarily highlights my contributions to ***published*** projects. Most client projects have been confidential, and not all of the software I developed is publicly available (especially R shiny apps).
+This section primarily highlights my contributions to ***published*** projects that specifically relate to my software development experiences. Most client projects have been confidential, and not all of the software I developed is publicly available (especially R shiny apps).
 
 ### Metrum Research Group
-- I have contributed to many of the packages found at <a href="https://github.com/metrumresearchgroup" target="_blank">github.com/metrumresearchgroup</a>, relating to NONMEM model management & submission, data visualization, data summarization and formatting (exported as latex, HTML, RTF, or MS word), software validation, and R shiny.
+- I have contributed to many of the packages found at <a href="https://github.com/metrumresearchgroup" target="_blank">github.com/metrumresearchgroup</a>, relating to NONMEM model management & submission, data visualization, data summarization & formatting (latex, HTML, RTF, and MS word), software validation, and R shiny. See our poster [here](http://dx.doi.org/10.13140/RG.2.2.33760.05129).
    - I have contributed the most to [bbr](https://metrumresearchgroup.github.io/bbr/), [pmforest](https://metrumresearchgroup.github.io/pmforest/), [mpn.scorecard](https://metrumresearchgroup.github.io/mpn.scorecard/), and [mrgda](https://metrumresearchgroup.github.io/mrgda/), though I have also been closely involved with the development of [nmrec](https://metrumresearchgroup.github.io/nmrec/).
    - Each of these packages bundled together facilitate model development and submission, and are outlined in Metrum's [Expo](https://merge.metrumrg.com/expo/expo1-nonmem-foce/).
 - Designed and personalized R shiny apps for internal tool development and external client needs, usually relating to PKPD simulation.
 - Developed a shiny app to contain re-usable shiny modules, with the intention of creating more portable shiny code to be used in multiple client projects.
-- Developed a complex shiny app to sort through and filter a database with interactive visualizations, statistical summaries, and parameterized report generation. 
+- Developed a complex shiny app to sort through and filter a database with interactive visualizations, statistical summaries, and parameterized report generation. [See poster](http://dx.doi.org/10.13140/RG.2.2.18660.55681).
 - Worked on client projects within the scope of data assembly, EDA tables and figures, PK simulation, data visualization and report generation.
 - Helped validate and write tests for our cloud computing platform, Metworx.
 
 ### Certara
 - <a href="https://pharmacometrics.shinyapps.io/COVID-19-CompoundScreening_TestNewUI/" target="_blank">Compound Screening Dashboard</a>, which links to other apps I worked on.
--  Note that this link may soon be changed. Will publish the offical Certara link when this happens.
 - <a href="https://pharmacometrics.shinyapps.io/COVID-19-VK-MODEL/" target="_blank">Viral Kinetics Model</a>
-- I helped develop other apps on <a href="https://www.covidpharmacology.com/in-silico-workbench/"  target="_blank">Certara's website</a> using the flexdashboard R package, though I wouldnt count this as R shiny experience given the R package's simplicity
+- I helped develop other apps on <a href="https://www.covidpharmacology.com/in-silico-workbench/"  target="_blank">Certara's website</a> using the `flexdashboard` R package, though I wouldn't count this as R shiny experience given the R package's simplicity and lack of available UI customization.
 
 
 <hr>
@@ -62,12 +61,12 @@ This section primarily highlights my contributions to ***published*** projects. 
 The following repositories illustrate some of my more recent personal coding projects:
 
 ### pythonR
-<img src='www/assets/logo-pythonR.png' align="right" height="160" style="float:right; height:160px;"/>
+<img src='www/assets/logo-pythonR.png' align="right" width="180" style="float:right; width:180px;"/>
 
 - [pythonR](https://barrettk.github.io/pythonR/): `pythonR` is an R package that facilitates the seamless integration of Python code and functionality within R environments. Leveraging the `reticulate` package, `pythonR` aims to simplify the process of developing Python-based functions in R, making it easier to set up, test, and validate Python code directly within the R environment.
 
 ### songClip
-<img src='www/assets/logo-songClip.png' align="right" height="169" style="float:right; height:169px;"/>
+<img src='www/assets/logo-songClip.png' align="right" width="180" style="float:right; width:180px;"/>
 
 - [songClip](https://mlvisions.github.io/songClip/): `songClip` is a prototype R package for running a DJ booth! The core `clip_song()` function runs an R shiny app. The app will allow you to import an audio library, choose a specific song (any audio file of similar size), modify sound settings (crop it, create loops, adjust equalizer settings, alter playback speed, etc.), and then save out the modified song. The hope was to eventually support layering tracks, similar to a DJ booth, but that is quite a whiles away.
 
