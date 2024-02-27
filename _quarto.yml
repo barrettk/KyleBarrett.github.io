@@ -22,15 +22,14 @@ format:
     linkcolor: "#16b1bf"
     fontsize: "14pt"
     include-after-body: www/hubspot.html
-
+      
 website:
   title: "Kyle Barrett"
   repo-url: https://github.com/barrettk/barrettk.github.io
-  repo-actions: [issue]
-  # google-analytics:
+  google-analytics: G-P7X9T3WX06
+  cookie-consent: true
   search:
-    location: navbar
-    type: overlay
+    location: sidebar
     copy-button: true
   sidebar:
     search: true
@@ -41,6 +40,7 @@ website:
         href: index.html
         icon: bank
       - section: "Software Development"
+        href: software.html
         contents:
           - section: "Professional Development"
             contents:
@@ -64,13 +64,13 @@ website:
     right:
       - text: "Home"
         href: index.html
-      - icon: github
+      - text: "{{< fa brands github size=Large >}}"
         href: https://github.com/barrettk
-      - icon: linkedin
-        href: https://www.linkedin.com/in/kyle-barrett-434926b9/
-      - icon: researchgate
+      - text: "{{< fa brands researchgate size=Large >}}"
         href: https://www.researchgate.net/profile/Kyle_Barrett6
-      - text: "Repositories & External Links"
+      - text: "{{< fa brands linkedin size=Large >}}"
+        href: https://www.linkedin.com/in/kyle-barrett-434926b9/
+      - text: "Repositories"
         menu:
           - text: "pythonR"
             href: https://barrettk.github.io/pythonR/
@@ -87,13 +87,12 @@ website:
       - text: "Home"
         href: index.html
     right:
-      - icon: github
+      - text: "{{< fa brands github size=Large >}}"
         href: https://github.com/barrettk/barrettk.github.io
         aria-label: Repository GitHub
-      - icon: linkedin
-        href: https://www.linkedin.com/in/kyle-barrett-434926b9/
-      - icon: {{< fa brands researchgate >}}
+      - text: "{{< fa brands researchgate size=Large >}}"
         href: https://www.researchgate.net/profile/Kyle_Barrett6
-
+      - text: "{{< fa brands linkedin size=Large >}}"
+        href: https://www.linkedin.com/in/kyle-barrett-434926b9/
         
         
