@@ -84,8 +84,13 @@ create_about_section <- function(
   about_lines <- readLines(about_template) %>% paste(collapse = "\n")
   about_lines <- about_lines %>% glue::glue(.open = "{{", .close = "}}")
   
+  # Temporary directory for quarto docs
+  about_dir <- tempfile(pattern = "about_tabs-")
+  if(!fs::dir_exists(about_dir)) fs::dir_create(about_dir)
+  
   about_name <- paste0(format_app_name(app_name), "-about.qmd")
-  about_path <- here::here("docs", about_name)
+  about_path <- file.path(about_dir, about_name)
+  # about_path <- here::here("docs", about_name)
   
   
   if(!fs::file_exists(about_path) || isTRUE(overwrite)){
@@ -93,6 +98,8 @@ create_about_section <- function(
   }else{
     message(glue::glue("File Exists: {about_path}\n Skipping over. Pass `overwrite = TRUE` to overwrite"))
   }
+  
+  about_path <- fs::path_real(about_path)
   
   return(about_path)
 }

@@ -39,8 +39,8 @@ This section primarily highlights my contributions to ***published*** projects t
 
 ### Metrum Research Group
 - I have contributed to many of the packages found at <a href="https://github.com/metrumresearchgroup" target="_blank">github.com/metrumresearchgroup</a>, relating to NONMEM model management & submission, data visualization, data summarization & formatting (latex, HTML, RTF, and MS word), software validation, and R shiny. See our poster [here](http://dx.doi.org/10.13140/RG.2.2.33760.05129).
-   - I have contributed the most to [bbr](https://metrumresearchgroup.github.io/bbr/), [pmforest](https://metrumresearchgroup.github.io/pmforest/), [mpn.scorecard](https://metrumresearchgroup.github.io/mpn.scorecard/), and [mrgda](https://metrumresearchgroup.github.io/mrgda/), though I have also been closely involved with the development of [nmrec](https://metrumresearchgroup.github.io/nmrec/).
-   - Each of these packages bundled together facilitate model development and submission, and are outlined in Metrum's [Expo](https://merge.metrumrg.com/expo/expo1-nonmem-foce/).
+   + I have contributed the most to [bbr](https://metrumresearchgroup.github.io/bbr/), [pmforest](https://metrumresearchgroup.github.io/pmforest/), [mpn.scorecard](https://metrumresearchgroup.github.io/mpn.scorecard/), and [mrgda](https://metrumresearchgroup.github.io/mrgda/), though I have also been closely involved with the development of [nmrec](https://metrumresearchgroup.github.io/nmrec/).
+   + Each of these packages bundled together facilitate model development and submission, and are outlined in Metrum's [Expo](https://merge.metrumrg.com/expo/expo1-nonmem-foce/).
 - Designed and personalized R shiny apps for internal tool development and external client needs, usually relating to PKPD simulation.
 - Developed a shiny app to contain re-usable shiny modules, with the intention of creating more portable shiny code to be used in multiple client projects.
 - Developed a complex shiny app to sort through and filter a database with interactive visualizations, statistical summaries, and parameterized report generation. [See poster](http://dx.doi.org/10.13140/RG.2.2.18660.55681).
@@ -76,29 +76,24 @@ The following repositories illustrate some of my more recent personal coding pro
 
 I hope to add more personal apps & R packages in the future!
 
-
-
-
+:::: column-screen
+::: {.panel-tabset}
 <!-- There must be one `about.md` and one `deployment_url.txt` **per** app in `/shiny_apps` -->
-
 ```{r}
+#| output: asis
 # Generate about sections - creates a formatted quarto doc per about section
 # see `get_about_sections()` and `create_about_section()` for more details
 about_sections <- get_about_sections(shiny_dir = here::here("shiny_apps"), current_dir = getwd())
-```
 
-:::: {.column-screen}
-::: {.panel-tabset}
-
-```{r echo=FALSE, results='asis'}
 # Includes each app quarto doc within the main page
 purrr::walk(about_sections$about_rmd, ~{
-res <- knitr::knit_child(.x, quiet = TRUE)
-cat(res, sep = '\n')
+  res <- knitr::knit_child(.x, quiet = TRUE, envir = environment())
+  cat(res, sep = '\n')
 })
 ```
 
 ### Custom HTML layouts
+
 I have developed R Shiny applications with more sophisticated user interfaces using HTML and CSS style sheets. These apps are designed to look and feel like traditional web applications rather than typical R Shiny interfaces. While the prototype I'm currently sharing is not fully functional, it demonstrates my ability to create modern and polished user interfaces for R Shiny apps.
 
 ```{r}
