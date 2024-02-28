@@ -10,19 +10,14 @@
     ]
   },
   {
-    "objectID": "shiny_apps/homebrewing/about.html",
-    "href": "shiny_apps/homebrewing/about.html",
-    "title": "Kyle Barrett",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research & Publications",
     "section": "",
-    "text": "Background\nHere’s an example of one of the apps I made for personal use back in the day (Homebrewing!). I used to use it to help me keep track of all the ingredients I liked, determine proper measurements, and estimate the pricing. Never actually sold any, but was glad I learned my profit margins wouldn’t be too great.\n\nFeel free to check it out on GitHub!\n\nNote: It looks like some formatting features aren’t working too great on shinyapps.io, and some dropdowns don’t work correctly in the embedded version here. Choosing not to fix it at the moment, though the full screen version should operate a bit more smoothly.",
+    "text": "Selected publications\nHuang Z, Barrett JS, Barrett K, Barrett R, Ng, CM. Novel method to predict body weight in children based on age and morphological facial features. The Journal of Clinical Pharmacology, 2015; 55: 447–451.\nHuang Z, Barrett JS, Barrett K, Barrett R, Ng, CM. Estimation of Body Weight in Children Based on Age and Morphological Facial Features. AAPS Annual Meeting and Exposition, At San Diego, CA 2014\nCimorelli M, Angel B, Fafarman A, Kohut A, Andrien B, Barrett K, Wrenn SP. Introducing a nested phase change agent with an acoustic response that depends on electric field: A candidate for myocardial perfusion imaging and drug delivery. Applied Acoustics, 2018: 138: 9-17.\nBarrett JS, Spitsin S, Moorthy G, Barrett K, Baker K, Lackner A, Tulic F, Winters A, Evans DL, Douglas SD. Pharmacologic rationale for the NK1R antagonist, Aprepitant as adjunctive therapy in HIV. J Transl Med. 2016;14:148\nBarrett JS, Moorthy WD, Srivastata G, Barrett K, Spitsin KJ, Tuluc S, et al. Preclinical activity predicts higher dosing requirements for the NK-1r antagonist Aprepitant in HIV-associated neurocognitive disorders (HAND): Dispositional and pharmacologic rationale for multimodal therapeutic window. Clin Pharmacol Therapeut 2013; 93 Suppl 1:S17.PI-9.\nCimorelli M, Andrien B, Barrett K, Fafarman A, Kohut A, Wrenn S. Electric Field Activation of Nested Ultrasound Contrast Agents: In Vitro and In Vivo Investigations. ACS: Colloid & Surface Science Symposium, At City College of New York, 2017; 91\nElmokadem A, Gastonguay M, Baron K, Barrett K, Zane N, Yankee T, Riggs M. Application of an Open- source Physiologically-based Pharmacokinetic Model of Voriconazole to Explore Apparent Pharmacokinetic Differences between Adults and Children. CPT: Pharmacometrics and Systems Pharmacology, 2018 (Submitted)\nMore information and additional posters can be found on Research Gate.",
     "crumbs": [
       "Home",
-      "Software Development",
-      "Personal Projects & Github Repositories",
-      "Archived Projects",
-      "Shiny Apps",
-      "Homebrewing",
-      "Background"
+      "Research & Publications"
     ]
   },
   {
@@ -57,30 +52,5 @@
       "Home",
       "Software Development"
     ]
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research & Publications",
-    "section": "",
-    "text": "Selected publications\nHuang Z, Barrett JS, Barrett K, Barrett R, Ng, CM. Novel method to predict body weight in children based on age and morphological facial features. The Journal of Clinical Pharmacology, 2015; 55: 447–451.\nHuang Z, Barrett JS, Barrett K, Barrett R, Ng, CM. Estimation of Body Weight in Children Based on Age and Morphological Facial Features. AAPS Annual Meeting and Exposition, At San Diego, CA 2014\nCimorelli M, Angel B, Fafarman A, Kohut A, Andrien B, Barrett K, Wrenn SP. Introducing a nested phase change agent with an acoustic response that depends on electric field: A candidate for myocardial perfusion imaging and drug delivery. Applied Acoustics, 2018: 138: 9-17.\nBarrett JS, Spitsin S, Moorthy G, Barrett K, Baker K, Lackner A, Tulic F, Winters A, Evans DL, Douglas SD. Pharmacologic rationale for the NK1R antagonist, Aprepitant as adjunctive therapy in HIV. J Transl Med. 2016;14:148\nBarrett JS, Moorthy WD, Srivastata G, Barrett K, Spitsin KJ, Tuluc S, et al. Preclinical activity predicts higher dosing requirements for the NK-1r antagonist Aprepitant in HIV-associated neurocognitive disorders (HAND): Dispositional and pharmacologic rationale for multimodal therapeutic window. Clin Pharmacol Therapeut 2013; 93 Suppl 1:S17.PI-9.\nCimorelli M, Andrien B, Barrett K, Fafarman A, Kohut A, Wrenn S. Electric Field Activation of Nested Ultrasound Contrast Agents: In Vitro and In Vivo Investigations. ACS: Colloid & Surface Science Symposium, At City College of New York, 2017; 91\nElmokadem A, Gastonguay M, Baron K, Barrett K, Zane N, Yankee T, Riggs M. Application of an Open- source Physiologically-based Pharmacokinetic Model of Voriconazole to Explore Apparent Pharmacokinetic Differences between Adults and Children. CPT: Pharmacometrics and Systems Pharmacology, 2018 (Submitted)\nMore information and additional posters can be found on Research Gate.",
-    "crumbs": [
-      "Home",
-      "Research & Publications"
-    ]
-  },
-  {
-    "objectID": "script/about_template.html",
-    "href": "script/about_template.html",
-    "title": "Kyle Barrett",
-    "section": "",
-    "text": "{{app_name}}\n  Full Screen \n\nDescriptionApp Preview \n\n\n{{app_description}}"
-  },
-  {
-    "objectID": "shiny_apps/anaerobic-digestion/about.html",
-    "href": "shiny_apps/anaerobic-digestion/about.html",
-    "title": "Kyle Barrett",
-    "section": "",
-    "text": "Background\nI modeled the anaerobic digestion of hydraulic fracking contaminants for my senior design project (see GitHub). The model contains 40+ PDE’s describing the advanced biological process and reactor properties. An R shiny dashboard app was constructed to facilitate the adjustment model parameters and reactor settings, allowing for quick simulations and sensitivity analyses."
   }
 ]

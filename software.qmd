@@ -78,10 +78,11 @@ I hope to add more personal apps & R packages in the future!
 
 :::: column-screen
 ::: {.panel-tabset}
-<!-- There must be one `about.md` and one `deployment_url.txt` **per** app in `/shiny_apps` -->
+
 ```{r}
 #| output: asis
 # Generate about sections - creates a formatted quarto doc per about section
+# - There must be one `about.md` and one `deployment_url.txt` **per** app in `/shiny_apps`
 # see `get_about_sections()` and `create_about_section()` for more details
 about_sections <- get_about_sections(shiny_dir = here::here("shiny_apps"), current_dir = getwd())
 
