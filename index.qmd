@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <br>
 
-# <img src="www/assets/FB_profile.jpg" align="right" style="width:30%; margin-right: 20px; border:10px solid; float:left;"/>
+# <img src="www/assets/FB_profile.jpg" align="right" class = "preview-image" style="width:30%; margin-right: 20px; border:10px solid; float:left;"/>
 
 
 Hey there! I'm a data science engineer specializing in R package and Shiny app development. Building upon my educational background in Chemical Engineering from Drexel University, where I graduated in 2019, I embarked on a journey into data analysis and software development, leveraging invaluable experiences gained from my cooperative education placements.

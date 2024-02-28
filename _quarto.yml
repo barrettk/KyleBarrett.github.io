@@ -3,6 +3,9 @@ project:
   execute-dir: project
   output-dir: docs
 
+language: 
+  search-box-placeholder: Search
+
 format:
   html:
     page-layout: full
@@ -25,12 +28,18 @@ format:
       
 website:
   title: "Kyle Barrett"
+  image: "www/assets/FB_profile.jpg"
+  open-graph: true
+  twitter-card:
+    creator: "@barrettk"
   repo-url: https://github.com/barrettk/barrettk.github.io
   google-analytics: G-P7X9T3WX06
   cookie-consent: true
   search:
     location: sidebar
     copy-button: true
+    type: textbox
+    show-item-context: tree
   sidebar:
     search: true
     title: Navigation
