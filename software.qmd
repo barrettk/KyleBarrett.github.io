@@ -38,9 +38,9 @@ EducatR_Link <- "https://youtu.be/DUwFSHFnWp8"
 This section primarily highlights my contributions to ***published*** projects that specifically relate to my software development experiences. Most client projects have been confidential, and not all of the software I developed is publicly available (especially R shiny apps).
 
 ### Metrum Research Group
-- I have contributed to many of the packages found at <a href="https://github.com/metrumresearchgroup" target="_blank">github.com/metrumresearchgroup</a>, relating to NONMEM model management & submission, data visualization, data summarization & formatting (latex, HTML, RTF, and MS word), software validation, and R shiny. See our poster [here](http://dx.doi.org/10.13140/RG.2.2.33760.05129).
+- I have contributed to many of the packages found at <a href="https://github.com/metrumresearchgroup" target="_blank">github.com/metrumresearchgroup</a>, relating to NONMEM model management & submission, data visualization, data summarization & formatting (latex, HTML, RTF, and MS word), software validation, and R shiny. 
    + I have contributed the most to [bbr](https://metrumresearchgroup.github.io/bbr/), [pmforest](https://metrumresearchgroup.github.io/pmforest/), [mpn.scorecard](https://metrumresearchgroup.github.io/mpn.scorecard/), and [mrgda](https://metrumresearchgroup.github.io/mrgda/), though I have also been closely involved with the development of [nmrec](https://metrumresearchgroup.github.io/nmrec/).
-   + Each of these packages bundled together facilitate model development and submission, and are outlined in Metrum's [Expo](https://merge.metrumrg.com/expo/expo1-nonmem-foce/).
+   + Each of these packages bundled together facilitate model development and submission, and are outlined in Metrum's [Expo](https://merge.metrumrg.com/expo/expo1-nonmem-foce/). [See our poster](http://dx.doi.org/10.13140/RG.2.2.33760.05129).
 - Designed and personalized R shiny apps for internal tool development and external client needs, usually relating to PKPD simulation.
 - Developed a shiny app to contain re-usable shiny modules, with the intention of creating more portable shiny code to be used in multiple client projects.
 - Developed a complex shiny app to sort through and filter a database with interactive visualizations, statistical summaries, and parameterized report generation. [See poster](http://dx.doi.org/10.13140/RG.2.2.18660.55681).
@@ -50,7 +50,7 @@ This section primarily highlights my contributions to ***published*** projects t
 ### Certara
 - <a href="https://pharmacometrics.shinyapps.io/COVID-19-CompoundScreening_TestNewUI/" target="_blank">Compound Screening Dashboard</a>, which links to other apps I worked on.
 - <a href="https://pharmacometrics.shinyapps.io/COVID-19-VK-MODEL/" target="_blank">Viral Kinetics Model</a>
-- I helped develop other apps on <a href="https://www.covidpharmacology.com/in-silico-workbench/"  target="_blank">Certara's website</a> using the `flexdashboard` R package, though I wouldn't count this as R shiny experience given the R package's simplicity and lack of available UI customization.
+- I helped develop the other apps on <a href="https://www.covidpharmacology.com/in-silico-workbench/"  target="_blank">Certara's website</a> using the `flexdashboard` R package as well, though I wouldn't count this as typical R shiny experience given the R package's simplicity and lack of available UI customization (It's basically an `Rmarkdown` document).
 
 
 <hr>

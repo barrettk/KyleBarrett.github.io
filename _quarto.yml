@@ -30,6 +30,7 @@ website:
   title: "Kyle Barrett"
   image: "www/assets/FB_profile.jpg"
   open-graph: true
+  favicon: "www/assets/FB_profile.jpg"
   twitter-card:
     creator: "@barrettk"
   repo-url: https://github.com/barrettk/barrettk.github.io
@@ -39,9 +40,8 @@ website:
     location: sidebar
     copy-button: true
     type: textbox
-    show-item-context: tree
+    show-item-context: root
   sidebar:
-    search: true
     title: Navigation
     border: true
     contents:
@@ -81,6 +81,9 @@ website:
         href: https://www.linkedin.com/in/kyle-barrett-434926b9/
       - text: "Repositories"
         menu:
+          - text: "---"
+          - text: "Personal Projects"
+          - text: "---"
           - text: "pythonR"
             href: https://barrettk.github.io/pythonR/
           - text: "songClip"
@@ -89,6 +92,20 @@ website:
             href: https://barrettk.github.io/AnaerobicDigestion/
           - text: "Kombucha Brewing"
             href: https://barrettk.github.io/KombuchaBrewing/
+            
+          - text: "---"
+          - text: "Proffesional Development"
+          - text: "---"
+          - text: "bbr"
+            href: https://metrumresearchgroup.github.io/bbr/
+          - text: "pmforest"
+            href: https://metrumresearchgroup.github.io/pmforest/
+          - text: "mpn.scorecard"
+            href: https://metrumresearchgroup.github.io/mpn.scorecard/
+          - text: "mrgda"
+            href: https://metrumresearchgroup.github.io/mrgda/
+          - text: "nmrec"
+            href: https://metrumresearchgroup.github.io/nmrec/
   page-footer:
     left: |
       Personal Portfolio
